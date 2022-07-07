@@ -1,0 +1,24 @@
+.productos {
+    display: flex;
+    flex-direction: column;
+}
+
+.productos__paneles {
+    display: flex;
+    flex-direction: column;
+}
+
+.productos__cabecera {
+    display: flex;
+    flex-direction: row;
+}
+
+.productos__seleccion {
+    display: flex;
+    flex-direction: row;
+}
+
+.producto__detalle-min {
+    display: flex;
+    flex-direction: column;
+}
