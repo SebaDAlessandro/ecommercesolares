@@ -1,0 +1,38 @@
+.promociones {
+    background: url(../img/panel_techo.jpg) center;
+    background-size: cover;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.promociones__acceso{
+    background: rgba(220, 220, 220, 0.527);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.promociones__titulo {
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.promociones__detalle {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.promociones__pag-btn {
+    margin-top: 1rem;
+}
+
+
+
+
