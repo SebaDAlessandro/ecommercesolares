@@ -1,6 +1,7 @@
 .productos {
     display: flex;
     flex-direction: column;
+    display: none;
 }
 
 .productos__paneles, .productos__lamparas, .productos__accesorios, .productos__molinos {
@@ -39,11 +40,12 @@
 .producto__detalle-min {
     display: flex;
     flex-direction: column;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 0.3rem;
 }
 
 .prdoucto__img {
-    width: 10rem;
+    width: 9rem;
+    height: 9rem;
     border-radius: 5px;
 }
 

@@ -31,10 +31,10 @@ body {
 .boton {
     display: block;
     text-align: center;
-    width: 100%;
+    width: 70%;
     
     /*tamaño maximo para el boton*/
-    max-width: 350px;
+    max-width: 250px;
     
     /*limitamos el tamaño del boton*/
     border: 1px solid var(--boton-celeste-ceniza);

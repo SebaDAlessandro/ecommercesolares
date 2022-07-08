@@ -9,6 +9,7 @@
     align-items: flex-start;
     padding-left: 15px;
     padding-bottom: 15px;
+    display: none;
 }
 
 .promociones__acceso{
