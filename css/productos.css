@@ -14,13 +14,20 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
 
+.productos__titulo {
+    font-size: 1.1rem;
+    font-weight: 700;
 }
 
 .productos__link {
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-size: 0.8rem;
+    color: #2A7AE4;
+    font-weight: 600;
 }
 
 .productos__seleccion {
@@ -38,4 +45,20 @@
 .prdoucto__img {
     width: 10rem;
     border-radius: 5px;
+}
+
+.producto__titulo {
+    font-size: 0.8rem;
+    padding: 0.3rem 0;
+}
+
+.producto__precio {
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+.producto__link {
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #2A7AE4;
 }
