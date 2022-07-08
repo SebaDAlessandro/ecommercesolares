@@ -1,7 +1,7 @@
 .promociones {
     background: url(../img/panel_techo.jpg) center;
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 30vh;
     display: flex;
     flex-direction: column;

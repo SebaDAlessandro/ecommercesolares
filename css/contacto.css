@@ -1,0 +1,76 @@
+.contacto {
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+.contacto__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.contacto__empresa {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contacto__titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.contacto__detalle {
+    max-width: 600px;
+    padding: 10px 0;
+}
+
+.contacto__formulario-container {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+}
+
+.contacto__img {
+    display: none;
+}
+
+.contacto__formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contacto__input {
+    border-radius: 5px;
+}
+
+.contacto__boton {
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: 1s;
+}
+
+.contacto__boton:hover {
+/*     color: var(--fuente-blanco);
+    background: var(--background-mobile-azul);
+ */}
+
+@media screen and (min-width: 768px) {
+
+      .contacto__formulario {
+        width: 50%;
+    }
+
+    .contacto__boton {
+        width: 150px;
+    }
+    
+}
+

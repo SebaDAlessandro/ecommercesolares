@@ -1,0 +1,53 @@
+:root {
+    --background-ceniza-claro: #F7F4F4;
+    --background-ceniza-medio: #D9D9D9;
+    --background-gradient-azul: linear-gradient(90deg, #020024 0%, #090979 35%, #007891 100%);
+    --background-gradient-blanco: linear-gradient(90deg, #ffffff 5%, #00d4ff 50%);
+    --background-mobile-azul: #020024;
+    --background-mobile-blanco: #ffffff;
+
+    --border-cabecera-mobile: #103D4A;
+    --border-card: #020024;
+
+    --boton-celeste-ceniza: #103D4A;
+
+    --fuente-blanco: #FFFFFF;
+    --fuente-celeste: #7bffe2;
+    --fuente-ceniza-claro: #666666;
+    --fuente-ceniza-oscuro: #4F4C4C;
+
+    --Montserrat: 'Montserrat',sans-serif;
+}
+
+body {
+     font-family: var(--Montserrat);
+}
+
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.boton {
+    display: block;
+    text-align: center;
+    width: 100%;
+    
+    /*tamaño maximo para el boton*/
+    max-width: 350px;
+    
+    /*limitamos el tamaño del boton*/
+    border: 1px solid var(--boton-celeste-ceniza);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}
+    
+

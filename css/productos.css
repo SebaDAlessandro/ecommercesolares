@@ -3,22 +3,39 @@
     flex-direction: column;
 }
 
-.productos__paneles {
+.productos__paneles, .productos__lamparas, .productos__accesorios, .productos__molinos {
     display: flex;
     flex-direction: column;
+    padding: 1rem 0;
 }
 
 .productos__cabecera {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.productos__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .productos__seleccion {
     display: flex;
     flex-direction: row;
+    
 }
 
 .producto__detalle-min {
     display: flex;
     flex-direction: column;
+    padding: 0.5rem 0.5rem;
+}
+
+.prdoucto__img {
+    width: 10rem;
+    border-radius: 5px;
 }
