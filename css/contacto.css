@@ -1,12 +1,18 @@
 .contacto {
     background: var(--background-mobile-azul);
+    color: var(--fuente-blanco);
     padding-bottom: 1.5rem;
     padding-top: 0.5rem;
 }
 
 .contacto__container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav__log {
+    display: none;
 }
 
 .contacto__empresa {
@@ -43,7 +49,8 @@
 .contacto__formulario {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 200px;
+   
 }
 
 .contacto__input {
@@ -56,6 +63,7 @@
     margin-bottom: 0.3rem;
     margin-top: 0.5rem;
     transition: 1s;
+    width: 100%;
 }
 
 .contacto__boton:hover {
@@ -63,15 +71,25 @@
     color: var(--fuente-blanco);
  }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
 
-      .contacto__formulario {
-        width: 50%;
+    .contacto__container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contacto__formulario {
+        width: 80%;
     }
 
     .contacto__boton {
-        width: 150px;
+        width: 30%;
     }
-    
+
+    .nav__log {
+       display: flex;
+    }
+
 }
+
 

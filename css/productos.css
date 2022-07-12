@@ -6,6 +6,10 @@
 /*     display: none;
  */}
 
+.container {
+    padding: 1px;
+}
+
 .productos__paneles, .productos__lamparas, .productos__accesorios, .productos__molinos {
     display: flex;
     flex-direction: column;
@@ -35,7 +39,8 @@
 
 .productos__seleccion {
     display: flex;
-    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .producto__detalle-min {
@@ -66,14 +71,28 @@
     font-weight: 700;
 }
 
-@media screen and (max-width: 320px) {
-    .container {
-        padding: 1px;
+
+@media screen and (min-width: 768px) {
+    
+    .productos__seleccion {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow: hidden;
     }
 
+}
+
+@media screen and (min-width: 1024px) {
+    
     .productos__seleccion {
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: row; 
+    }
+
+
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
     }
 
 }

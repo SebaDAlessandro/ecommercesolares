@@ -9,8 +9,7 @@
 }
 
 .nav__log {
-    border-radius: 15px;
-    width: 90px;
+    display: none;
 }
 
 .nav__interaccion-btn {
@@ -29,8 +28,10 @@
     height: 25px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 1024px) {
     .nav__log {
-        display: none;
+        display: flex;
+        border-radius: 15px;
+        width: 90px;
     }
 }
