@@ -3,10 +3,11 @@
     flex-direction: column;
     padding-bottom: 2rem;
     padding-top: 2rem;
+    margin: 2px;
 
     /* quitar esta propiedad para ver el selector promociones */
     display: none;
-}
+ }
 
 .allProductos__cabecera {
     align-items: center;
@@ -25,13 +26,14 @@
     color: #2A7AE4;
     display: flex;
     flex-direction: row;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 600;
 }
 
 .allProductos__seleccion {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .producto__detalle-min {

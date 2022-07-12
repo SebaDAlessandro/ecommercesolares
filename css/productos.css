@@ -3,8 +3,8 @@
     flex-direction: column;
 
 /* quitar esta propiedad para ver el selector promociones */
-/*     display: none;
- */}
+    display: none;
+ }
 
 .container {
     padding: 1px;
