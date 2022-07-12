@@ -1,16 +1,17 @@
 .allProductos {
     display: flex;
     flex-direction: column;
-    padding-top: 2rem;
     padding-bottom: 2rem;
-/* quitar esta propiedad para ver el selector promociones */
-/*     display: none;
- */}
+    padding-top: 2rem;
+
+    /* quitar esta propiedad para ver el selector promociones */
+    display: none;
+}
 
 .allProductos__cabecera {
+    align-items: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -20,11 +21,11 @@
 }
 
 .allProductos__link {
+    align-items: center;
+    color: #2A7AE4;
     display: flex;
     flex-direction: row;
-    align-items: center;
     font-size: 0.8rem;
-    color: #2A7AE4;
     font-weight: 600;
 }
 
@@ -41,9 +42,9 @@
 }
 
 .prdoucto__img {
-    width: 9rem;
-    height: 9rem;
     border-radius: 5px;
+    height: 9rem;
+    width: 9rem;
 }
 
 .producto__titulo {
@@ -57,7 +58,7 @@
 }
 
 .producto__link {
-    font-weight: 700;
-    font-size: 0.8rem;
     color: #2A7AE4;
+    font-size: 0.8rem;
+    font-weight: 700;
 }

@@ -1,10 +1,11 @@
 .nuevoProducto {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    width: 100%;
     height: 50vh;
+    padding: 0px;
+    padding-bottom: 20px;
+    width: 100%;
 
         /* quitar esta propiedad para ver el selector promociones */
         display: none;
@@ -12,13 +13,12 @@
 }
 
 .nuevoProducto__container {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0px;
-
-
-
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 50%;
 }
 
 .nuevoProducto__titulo {
@@ -26,20 +26,23 @@
     font-weight: 700;
 }
 
-/* .nuevoProducto__usuario, .nuevoProducto__password {
-    margin: 0.4rem 0;
-    width: inherit;
-} */
-
 .nuevoProducto__buton {
-    margin-top: 1rem;
-    width: 50%;
     background: var(--boton-celeste-ceniza);
     color: var(--fuente-blanco);
     font-weight: 700;
+    margin-top: 1rem;
+    transition: 1s;
+    width: 130px;
+}
+
+.nuevoProducto__buton:hover {
+    background: var(--fuente-blanco);
+    color: var(--boton-celeste-ceniza);
 }
 
 .nuevoProducto__input {
-    margin: 0.5rem;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 25px;
+    margin: 0.5rem;
+    width: inherit;
 }

@@ -1,8 +1,7 @@
 :root {
     --background-ceniza-claro: #F7F4F4;
     --background-ceniza-medio: #D9D9D9;
-    --background-gradient-azul: linear-gradient(90deg, #020024 0%, #090979 35%, #007891 100%);
-    --background-gradient-blanco: linear-gradient(90deg, #ffffff 5%, #00d4ff 50%);
+    --background-cielo: skyblue;
     --background-mobile-azul: #020024;
     --background-mobile-blanco: #ffffff;
 
@@ -21,6 +20,7 @@
 
 body {
      font-family: var(--Montserrat);
+     background: var(--background-ceniza-claro) ;
 }
 
 .container {
@@ -40,7 +40,7 @@ body {
     border: 1px solid var(--boton-celeste-ceniza);
     border-radius: 5px;
     box-sizing: border-box;
-    padding: 1rem 2rem;
+    padding: 0.3rem 0.8rem;
 }
 
 @media screen and (min-width: 1024px) {

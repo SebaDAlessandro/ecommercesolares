@@ -9,10 +9,10 @@
 }
 
 .login__container {
+    align-items: center;
     display: flex;
     flex-direction: column;
     width: 70%;
-    align-items: center
 }
 
 .login__titulo {
@@ -21,17 +21,18 @@
 }
 
 .login__usuario, .login__password {
+    height: 25px;
     margin: 0.4rem 0;
     width: inherit;
 }
 
 .login__buton {
-    margin-top: 1rem;
-    width: 50%;
     background: var(--boton-celeste-ceniza);
     color: var(--fuente-blanco);
     font-weight: 700;
+    margin-top: 1rem;
     transition: 1s;
+    width: 50%;
 }
 
 .login__buton:hover {

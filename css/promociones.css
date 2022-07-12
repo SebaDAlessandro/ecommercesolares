@@ -1,18 +1,18 @@
 .promociones {
+    align-items: flex-start;
     background: url(../img/panel_techo.jpg) center;
     background-size: cover;
-    width: -webkit-fill-available;
-    height: 30vh;
     display: flex;
     flex-direction: column;
+    height: 30vh;
     justify-content: flex-end;
-    align-items: flex-start;
-    padding-left: 15px;
     padding-bottom: 15px;
+    padding-left: 15px;
+    width: -webkit-fill-available;
 
     /* quitar esta propiedad para ver el selector promociones */
-    display: none;
-}
+/*     display: none;
+ */}
 
 .promociones__acceso{
     background: rgba(220, 220, 220, 0.527);
@@ -21,8 +21,8 @@
 }
 
 .promociones__titulo {
-    font-size: 3rem;
     color: #ffffff;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -36,6 +36,15 @@
     margin-top: 1rem;
 }
 
+@media screen and (max-width: 320px) {
+    .promociones__titulo {
+        font-size: x-large;
+    }
+
+    .promociones__detalle {
+        font-size: large;
+    }
+}
 
 
 

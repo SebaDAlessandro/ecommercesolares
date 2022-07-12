@@ -3,8 +3,8 @@
     flex-direction: column;
 
 /* quitar esta propiedad para ver el selector promociones */
-    display: none;
-}
+/*     display: none;
+ */}
 
 .productos__paneles, .productos__lamparas, .productos__accesorios, .productos__molinos {
     display: flex;
@@ -13,9 +13,9 @@
 }
 
 .productos__cabecera {
+    align-items: center;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -25,18 +25,17 @@
 }
 
 .productos__link {
+    align-items: center;
+    color: #2A7AE4;
     display: flex;
     flex-direction: row;
-    align-items: center;
     font-size: 0.8rem;
-    color: #2A7AE4;
     font-weight: 600;
 }
 
 .productos__seleccion {
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row; 
 }
 
 .producto__detalle-min {
@@ -46,9 +45,9 @@
 }
 
 .prdoucto__img {
-    width: 9rem;
-    height: 9rem;
     border-radius: 5px;
+    height: 9rem;
+    width: 9rem;
 }
 
 .producto__titulo {
@@ -62,7 +61,19 @@
 }
 
 .producto__link {
-    font-weight: 700;
-    font-size: 0.8rem;
     color: #2A7AE4;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 1px;
+    }
+
+    .productos__seleccion {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }

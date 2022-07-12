@@ -1,0 +1,55 @@
+.detalleProducto {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+
+        /* quitar esta propiedad para ver el selector promociones */
+        display: none;
+}
+
+.detalleProducto__container {
+    display: flex;
+}
+
+.detalleProducto__producto {
+    display: flex;
+}
+
+.detalleProducto__imagen {
+    width: 40vw;
+}
+
+.detalleProducto__descripcion {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.detalleProducto__titulo {
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+
+.detalleProducto__precio {
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.detalleProducto__texto {
+    font-size: 0.9rem;
+}
+
+.detalleProductos__TituloSimilares {
+    margin-top: 50px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.productos__similares {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+
