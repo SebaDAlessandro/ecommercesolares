@@ -1,7 +1,7 @@
 .promociones {
     background: url(../img/panel_techo.jpg) center;
     background-size: cover;
-    width: 100%;
+    width: -webkit-fill-available;
     height: 30vh;
     display: flex;
     flex-direction: column;
@@ -9,6 +9,8 @@
     align-items: flex-start;
     padding-left: 15px;
     padding-bottom: 15px;
+
+    /* quitar esta propiedad para ver el selector promociones */
     display: none;
 }
 

@@ -1,0 +1,45 @@
+.nuevoProducto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+    height: 50vh;
+
+        /* quitar esta propiedad para ver el selector promociones */
+        display: none;
+    
+}
+
+.nuevoProducto__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+
+
+}
+
+.nuevoProducto__titulo {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+/* .nuevoProducto__usuario, .nuevoProducto__password {
+    margin: 0.4rem 0;
+    width: inherit;
+} */
+
+.nuevoProducto__buton {
+    margin-top: 1rem;
+    width: 50%;
+    background: var(--boton-celeste-ceniza);
+    color: var(--fuente-blanco);
+    font-weight: 700;
+}
+
+.nuevoProducto__input {
+    margin: 0.5rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}

@@ -1,30 +1,25 @@
-.productos {
+.allProductos {
     display: flex;
     flex-direction: column;
-
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 /* quitar esta propiedad para ver el selector promociones */
-    display: none;
-}
+/*     display: none;
+ */}
 
-.productos__paneles, .productos__lamparas, .productos__accesorios, .productos__molinos {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 0;
-}
-
-.productos__cabecera {
+.allProductos__cabecera {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-.productos__titulo {
+.allProductos__titulo {
     font-size: 1.1rem;
     font-weight: 700;
 }
 
-.productos__link {
+.allProductos__link {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,16 +28,16 @@
     font-weight: 600;
 }
 
-.productos__seleccion {
+.allProductos__seleccion {
     display: flex;
-    flex-direction: row;
-    
+    flex-wrap: wrap;
 }
 
 .producto__detalle-min {
     display: flex;
     flex-direction: column;
     padding: 0.5rem 0.3rem;
+    width: min-content;
 }
 
 .prdoucto__img {
