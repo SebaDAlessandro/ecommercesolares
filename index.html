@@ -9,7 +9,7 @@
     <!-- Google Api -->    
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
-    
+
     <link rel="icon" href="./img/logo-seba-black.png">
     <link rel="stylesheet" href="./css/reset.css" type="text/css">
     <link rel="stylesheet" href="./css/bases.css" type="text/css">
@@ -28,7 +28,10 @@
         <div class="nav">
             <img src="./img/log-roque.png" alt="logo e-commerce" class="nav__log">
             <input type="text" class="nav__interaccion-busqueda" placeholder="Serch">
-            <button class="nav__interaccion-btn boton">Login</button>
+            <div class="header__log-ingreso">
+                <button class="nav__interaccion-btn boton">Login</button>
+                <span class="input-mensage-bienvenida">Bienvenido</span>
+            </div>
         </div>
     </header>
 
@@ -42,11 +45,17 @@
             </div>
         </section>
 
-        <section class="login containder">
+        <section class="login container">
             <div class="login__container">
                 <h1 class="login__titulo">Iniciar Sesión</h1>
-                <input type="text" class="login__usuario" placeholder="Usuario" required>
-                <input type="password" class="login__password" placeholder="Contraseña" required>
+                <div class="login__usuario-container">
+                    <input type="email" class="contacto__input login__usuario" placeholder="Usuario" required data-tipo="email">
+                    <span class="input-mensage-error"></span>
+                </div>
+                <div class="login__password-container">
+                    <input type="password" class="contacto__input login__password" placeholder="Contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,}$" title="Al menos 6 caracteres, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." data-tipo="password">
+                    <span class="input-mensage-error"></span>
+                </div>
                 <buton class="login__buton boton">Entrar</buton>
             </div>
         </section>
@@ -75,30 +84,68 @@
                 <div class="allProductos__seleccion">
 
                     <div class="producto__detalle-min">
+                        
                         <img src="./img/Paneles/Kit Energia Solar Multiuso Para Motorhome Camping Pesca 20w.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Kit Energia Solar Multiuso Para Motorhome Camping Pesca 20w</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
+                        
                     </div>
                     
                     <div class="producto__detalle-min">
+                
                         <img src="./img/Paneles/Kit Solar Completo Autoinstalable Energia Panel Bateria K1.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Kit Solar Completo Autoinstalable Energia Panel Bateria K1</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
+                        
                     </div>
 
                     <div class="producto__detalle-min">
+
                         <img src="./img/Paneles/Kit Panel Solar Completo Autoinstalable De 600w Con Usb K2.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Kit Panel Solar Completo Autoinstalable De 600w Con Usb K2</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
+
                     </div>
 
                     <div class="producto__detalle-min">
                         <img src="./img/Paneles/Kit Panel Solar Completo 1000w Autoinstalable Motorhome K3.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Kit Panel Solar Completo 1000w Autoinstalable Motorhome K3</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -106,6 +153,14 @@
                         <img src="./img/Paneles/Kit Panel Solar Completo Autoinstalable 1000w Energia Usb K4.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Kit Panel Solar Completo Autoinstalable 1000w Energia Usb K4</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -113,6 +168,14 @@
                         <img src="./img/Paneles/Panel Solar 20w Watts + Regulador De Carga 10 Amp.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Panel Solar 20w Watts + Regulador De Carga 10 Amp</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -121,6 +184,14 @@
                         <img src="./img/lamparas/Kit X 2 Luces Para Bicicleta Led Pilas Incluidas Roja+blanca.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Kit X 2 Luces Para Bicicleta Led Pilas Incluidas Roja+blanca</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -128,6 +199,14 @@
                         <img src="./img/lamparas/Lampara Solar 100 Led Reflector Solar Sensor Luz Exterior.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Lampara Solar 100 Led Reflector Solar Sensor Luz Exterior</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -135,6 +214,14 @@
                         <img src="./img/lamparas/Lámpara Solar Colgante Recargable 5 Funciones..webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Lámpara Solar Colgante Recargable 5 Funciones.</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -142,6 +229,14 @@
                         <img src="./img/lamparas/Luz Solar Led Para Jardin Con Estaca Luz Fria Para Exterior.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Luz Solar Led Para Jardin Con Estaca Luz Fria Para Exterior</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -149,6 +244,14 @@
                         <img src="./img/lamparas/Pack X 2 Lampara Solar Led Luz Con Sensor Exterior 20 Led.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Pack X 2 Lampara Solar Led Luz Con Sensor Exterior 20 Led</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -156,6 +259,14 @@
                         <img src="./img/lamparas/Panel Reflector Solar 32 Led Sensor Movimiento Ip66.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Panel Reflector Solar 32 Led Sensor Movimiento Ip66</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -164,6 +275,14 @@
                         <img src="./img/accesorios/Batería Solar Eólica De Ciclo Profundo 12 Volts 220 Ah Cuota.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Batería Solar Eólica De Ciclo Profundo 12 Volts 220 Ah Cuota</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
                     
@@ -171,6 +290,14 @@
                         <img src="./img/accesorios/Farol Estaca Solar De 8 Leds Jardín Exterior Suelo Panel Luz.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Farol Estaca Solar De 8 Leds Jardín Exterior Suelo Panel Luz</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -178,6 +305,14 @@
                         <img src="./img/accesorios/Farol Portatil Linterna Led Recargable Solar Sol De Noche.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Farol Portatil Linterna Led Recargable Solar Sol De Noche</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -185,6 +320,14 @@
                         <img src="./img/accesorios/Kit Accesorios Batería Solar Growatt Hope 4.8l-c1.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Kit Accesorios Batería Solar Growatt Hope 4.8l-c1</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -192,6 +335,14 @@
                         <img src="./img/accesorios/Manta Solar P Climatizar Agua Accesorio Pileta Intex Cuotas.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Manta Solar P Climatizar Agua Accesorio Pileta Intex Cuotas</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -199,6 +350,14 @@
                         <img src="./img/accesorios/Mini Reflector Led Con Panel Solar Sensor De Movimiento D03.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Mini Reflector Led Con Panel Solar Sensor De Movimiento D03</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -207,6 +366,14 @@
                         <img src="./img/molinos/Aerogenerador Aerocargador Turbina Eólica 400w 12v Regulador.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Aerogenerador Aerocargador Turbina Eólica 400w 12v Regulador</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
                     
@@ -214,6 +381,14 @@
                         <img src="./img/molinos/Aerogenerador Generador Eolico 175w.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Aerogenerador Generador Eolico 175w</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -221,6 +396,14 @@
                         <img src="./img/molinos/Aerogenerador Generador Eolico Molino Viento Pack 10 Unid.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Aerogenerador Generador Eolico Molino Viento Pack 10 Unid</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -228,6 +411,14 @@
                         <img src="./img/molinos/Molino De Viento Ascheri Maquina Rueda Y Cola 8 Pies Cuotas.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Molino De Viento Ascheri Maquina Rueda Y Cola 8 Pies Cuotas</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -235,6 +426,14 @@
                         <img src="./img/molinos/Molino De Viento Ascheri Maquina Rueda Y Cola De 8 Pies.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Molino De Viento Ascheri Maquina Rueda Y Cola De 8 Pies</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
 
@@ -242,6 +441,14 @@
                         <img src="./img/molinos/Molino De Viento Brisa Ii De 8´ Incluye Torre Adaptadora.webp" alt="img del producto" class="prdoucto__img">
                         <p class="producto__titulo">Molino De Viento Brisa Ii De 8´ Incluye Torre Adaptadora</p>
                         <p class="producto__precio">$300</p>
+                        <div class="producto__detalle-min-opciones">
+                            <a class="producto__detalle-min-borrar" href="#"><span class="material-symbols-outlined">
+                                delete
+                                </span></a>
+                            <a class="producto__detalle-min-editar" href="#"><span class="material-symbols-outlined">
+                                edit
+                                </span></a>
+                        </div>
                         <a href="#" class="producto__link">Ver producto</a>
                     </div>
             
@@ -597,38 +804,49 @@
                     <p class="contacto__titulo">contacto</p>
                    <!--  <img src="./img/email-img.png" alt="img telefono" class="contacto__img"> -->
                     <form action="https://formsubmit.co/sebadalessandro@hotmail.com" method="POST" class="contacto__formulario">
-                        <input
-                            class="contacto__input"
-                            id="name"
-                            type="text"
-                            name="name"
-                            placeholder="Nombre"
-                            pattern="[\s\S]{0,40}"
-                            required
-                        >
-                        <br>
-    
-                        <input
-                            class="contacto__input"
-                            id="email"
-                            type="email"
-                            name="email"
-                            placeholder="E-mail"
-                            required
-                        >
-                        <br>
-    
-                        <input
-                            class="contacto__input"
-                            id="subject"
-                            type="text"
-                            name="subject"
-                            placeholder="Asunto"
-                            required
-                        >
+                        <div class="input-container">
+                            <input
+                                class="contacto__input"
+                                id="name" type="text"
+                                name="name"
+                                placeholder="Nombre"
+                                pattern="[\s\S]{0,40}"
+                                required
+                                data-tipo="nombre"
+                                >
+                                <span class="input-mensage-error"></span>
+                        </div>
                         <br>
                         
-                        <textarea name="menssage" id="menssage" cols="30" rows="10" placeholder="Mensaje" class="contacto__input" required></textarea>
+                        <div class="input-container">
+                            <input
+                                class="contacto__input"
+                                id="email"
+                                type="email"
+                                name="email"
+                                placeholder="E-mail"
+                                required
+                                data-tipo="email"
+                            >
+                            <span class="input-mensage-error"></span>
+                        </div>
+                        <br>
+                        
+                        <div class="input-container">
+                            <input
+                                class="contacto__input"
+                                id="subject"
+                                type="text"
+                                name="subject"
+                                placeholder="Asunto"
+                                required
+                                data-tipo="asunto"
+                            >
+                            <span class="input-mensage-error"></span>
+                        </div>
+                        <br>
+                        
+                        <textarea name="menssage" id="menssage" cols="30" rows="10" placeholder="Mensaje" class="contacto__input-textArea" required ></textarea>
                         <br>
                         <br>
     
@@ -660,6 +878,6 @@
         </footer>
 
     </main>
-
+    <script type="module" src="./js/app.js"></script>
 </body>
 </html>

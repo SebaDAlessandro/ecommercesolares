@@ -8,6 +8,15 @@
     padding: 5px 10px;
 }
 
+.header__log-ingreso {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-mensage-bienvenida {
+    color: white;
+}
+
 .nav__log {
     display: none;
 }

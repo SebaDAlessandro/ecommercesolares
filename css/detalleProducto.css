@@ -4,8 +4,8 @@
     margin: 10px 0;
 
         /* quitar esta propiedad para ver el selector promociones */
-/*         display: none;
- */}
+        display: none;
+}
 
 .detalleProducto__container {
     display: flex;

@@ -5,8 +5,8 @@
     margin: 10rem 0;
 
 /* quitar esta propiedad para ver el selector promociones */
-    display: none;
-}
+/*     display: none;
+ */}
 
 .login__container {
     align-items: center;
@@ -20,10 +20,17 @@
     font-weight: 700;
 }
 
+.login__usuario-container, .login__password-container{
+    display: flex;
+    flex-direction: column;
+}
+
 .login__usuario, .login__password {
+    border: 2px solid rgba(0, 0, 255, 0.4);
+    color: blue;
     height: 25px;
     margin: 0.4rem 0;
-    width: inherit;
+    width: 250px;
 }
 
 .login__buton {

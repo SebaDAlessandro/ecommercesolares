@@ -6,8 +6,8 @@
     margin: 2px;
 
     /* quitar esta propiedad para ver el selector promociones */
-    display: none;
- }
+/*     display: none;
+ */ }
 
 .allProductos__cabecera {
     align-items: center;
@@ -19,6 +19,7 @@
 .allProductos__titulo {
     font-size: 1.1rem;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 
 .allProductos__link {
@@ -37,15 +38,30 @@
 }
 
 .producto__detalle-min {
+    border: 0.1px solid rgb(128 128 128);
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
+    margin: 0.2px;
     padding: 0.5rem 0.3rem;
+    position: relative;
     width: min-content;
 }
+
+.producto__detalle-min-opciones {
+    background: rgba(128, 128, 128, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 95%;
+}
+
 
 .prdoucto__img {
     border-radius: 5px;
     height: 9rem;
+    margin-top: 20px;
     width: 9rem;
 }
 

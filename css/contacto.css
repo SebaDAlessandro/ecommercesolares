@@ -54,8 +54,28 @@
 }
 
 .contacto__input {
-    border-radius: 5px;
+    background: none;
+    border: 2px solid rgb(77 181 255 / 40%);
+    border-radius: 0.5rem;
+    color: white;
+    resize: none;
+    width: 100%;
 }
+
+.contacto__input--invalid {
+    border: 1px solid red;
+    border-radius: 7px;
+    color: red;
+    font-size: 0.8rem;
+  }
+
+  .contacto__input-textArea {
+    background: none;
+    border: 2px solid rgb(77 181 255 / 40%);
+    border-radius: 0.5rem;
+    color: white;
+    resize: none;
+  }
 
 .contacto__boton {
     font-size: 0.9rem;
