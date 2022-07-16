@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./css/nuevoProducto.css" type="text/css">
     <link rel="stylesheet" href="./css/allProductos.css" type="text/css">
     <link rel="stylesheet" href="./css/detalleProducto.css" type="text/css">
+    <link rel="stylesheet" href="./css/off.css" type="text/css">
 </head>
 <body>
     <header class="header container">
@@ -29,15 +30,15 @@
             <img src="./img/log-roque.png" alt="logo e-commerce" class="nav__log">
             <input type="text" class="nav__interaccion-busqueda" placeholder="Serch">
             <div class="header__log-ingreso">
-                <button class="nav__interaccion-btn boton">Login</button>
-                <span class="input-mensage-bienvenida">Bienvenido</span>
+                <button class="nav__interaccion-btn boton" id="login">Login</button>
+                <span class="off" id="bienvenida">Bienvenido</span>
             </div>
         </div>
     </header>
 
     <main class="main container">
 
-        <section class="promociones container">
+        <section class="promociones container" id="promocionesSection">
             <div class="promociones__acceso">
                 <p class="promociones__titulo">Promociones</p>
                 <p class="promociones__detalle">Productos seleccionados</p>
@@ -45,22 +46,23 @@
             </div>
         </section>
 
-        <section class="login container">
+        <!-- <section class="login container"> -->
+        <section class="off" id="loginSection">
             <div class="login__container">
                 <h1 class="login__titulo">Iniciar Sesión</h1>
                 <div class="login__usuario-container">
-                    <input type="email" class="contacto__input login__usuario" placeholder="Usuario" required data-tipo="email">
+                    <input id="usuario" type="email" name="usuario" class="contacto__input login__usuario" placeholder="Usuario" required data-tipo="usuario">
                     <span class="input-mensage-error"></span>
                 </div>
                 <div class="login__password-container">
-                    <input type="password" class="contacto__input login__password" placeholder="Contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,}$" title="Al menos 6 caracteres, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." data-tipo="password">
+                    <input id="contrasenia" type="password" name="contrasenia" class="contacto__input login__password" placeholder="Contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,}$" title="Al menos 6 caracteres, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." data-tipo="password">
                     <span class="input-mensage-error"></span>
                 </div>
-                <buton class="login__buton boton">Entrar</buton>
+                <buton class="login__buton boton" id="ingresar">Entrar</buton>
             </div>
         </section>
 
-        <section class="nuevoProducto containder">
+        <section class="nuevoProducto containder" id="nuevoProductoSection">
             <div class="nuevoProducto__container">
                 <h1 class="nuevoProducto__titulo">Agregar nuevo producto</h1>
                 <input type="text" class="nuevoProducto__input" placeholder="URL de imagen" required>
@@ -72,7 +74,7 @@
             </div>
         </section>
 
-        <section class="allProductos container">
+        <section class="off" id="allProductosSection">
 
             <div class="allProductos__paneles">
 
@@ -462,7 +464,7 @@
 
         </section>
 
-        <section class="productos container">
+        <section class="productos container" id="productosSection">
 
             <div class="productos__paneles">
 
@@ -574,61 +576,6 @@
 
             </div>
 
-            <div class="productos__accesorios">
-
-                <div class="productos__cabecera">
-                    <p class="productos__titulo">Acessorios</p>
-                    <a href="#" class="productos__link">Ver todos <span class="material-symbols-outlined">arrow_forward</span></a>
-                </div>
-
-                <div class="productos__seleccion">
-
-                    <div class="producto__detalle-min">
-                        <img src="./img/accesorios/Batería Solar Eólica De Ciclo Profundo 12 Volts 220 Ah Cuota.webp" alt="img del producto" class="prdoucto__img">
-                        <p class="producto__titulo">Batería Solar Eólica De Ciclo Profundo 12 Volts 220 Ah Cuota</p>
-                        <p class="producto__precio">$300</p>
-                        <a href="#" class="producto__link">Ver producto</a>
-                    </div>
-                    
-                    <div class="producto__detalle-min">
-                        <img src="./img/accesorios/Farol Estaca Solar De 8 Leds Jardín Exterior Suelo Panel Luz.webp" alt="img del producto" class="prdoucto__img">
-                        <p class="producto__titulo">Farol Estaca Solar De 8 Leds Jardín Exterior Suelo Panel Luz</p>
-                        <p class="producto__precio">$300</p>
-                        <a href="#" class="producto__link">Ver producto</a>
-                    </div>
-
-                    <div class="producto__detalle-min">
-                        <img src="./img/accesorios/Farol Portatil Linterna Led Recargable Solar Sol De Noche.webp" alt="img del producto" class="prdoucto__img">
-                        <p class="producto__titulo">Farol Portatil Linterna Led Recargable Solar Sol De Noche</p>
-                        <p class="producto__precio">$300</p>
-                        <a href="#" class="producto__link">Ver producto</a>
-                    </div>
-
-                    <div class="producto__detalle-min">
-                        <img src="./img/accesorios/Kit Accesorios Batería Solar Growatt Hope 4.8l-c1.webp" alt="img del producto" class="prdoucto__img">
-                        <p class="producto__titulo">Kit Accesorios Batería Solar Growatt Hope 4.8l-c1</p>
-                        <p class="producto__precio">$300</p>
-                        <a href="#" class="producto__link">Ver producto</a>
-                    </div>
-
-                    <div class="producto__detalle-min">
-                        <img src="./img/accesorios/Manta Solar P Climatizar Agua Accesorio Pileta Intex Cuotas.webp" alt="img del producto" class="prdoucto__img">
-                        <p class="producto__titulo">Manta Solar P Climatizar Agua Accesorio Pileta Intex Cuotas</p>
-                        <p class="producto__precio">$300</p>
-                        <a href="#" class="producto__link">Ver producto</a>
-                    </div>
-
-                    <div class="producto__detalle-min">
-                        <img src="./img/accesorios/Mini Reflector Led Con Panel Solar Sensor De Movimiento D03.webp" alt="img del producto" class="prdoucto__img">
-                        <p class="producto__titulo">Mini Reflector Led Con Panel Solar Sensor De Movimiento D03</p>
-                        <p class="producto__precio">$300</p>
-                        <a href="#" class="producto__link">Ver producto</a>
-                    </div>
-
-                </div>
-
-            </div>
-
             <div class="productos__molinos">
 
                 <div class="productos__cabecera">
@@ -684,9 +631,64 @@
 
             </div>
 
+            <div class="productos__accesorios">
+
+                <div class="productos__cabecera">
+                    <p class="productos__titulo">Acessorios y otros</p>
+                    <a href="#" class="productos__link">Ver todos <span class="material-symbols-outlined">arrow_forward</span></a>
+                </div>
+
+                <div class="productos__seleccion">
+
+                    <div class="producto__detalle-min">
+                        <img src="./img/accesorios/Batería Solar Eólica De Ciclo Profundo 12 Volts 220 Ah Cuota.webp" alt="img del producto" class="prdoucto__img">
+                        <p class="producto__titulo">Batería Solar Eólica De Ciclo Profundo 12 Volts 220 Ah Cuota</p>
+                        <p class="producto__precio">$300</p>
+                        <a href="#" class="producto__link">Ver producto</a>
+                    </div>
+                    
+                    <div class="producto__detalle-min">
+                        <img src="./img/accesorios/Farol Estaca Solar De 8 Leds Jardín Exterior Suelo Panel Luz.webp" alt="img del producto" class="prdoucto__img">
+                        <p class="producto__titulo">Farol Estaca Solar De 8 Leds Jardín Exterior Suelo Panel Luz</p>
+                        <p class="producto__precio">$300</p>
+                        <a href="#" class="producto__link">Ver producto</a>
+                    </div>
+
+                    <div class="producto__detalle-min">
+                        <img src="./img/accesorios/Farol Portatil Linterna Led Recargable Solar Sol De Noche.webp" alt="img del producto" class="prdoucto__img">
+                        <p class="producto__titulo">Farol Portatil Linterna Led Recargable Solar Sol De Noche</p>
+                        <p class="producto__precio">$300</p>
+                        <a href="#" class="producto__link">Ver producto</a>
+                    </div>
+
+                    <div class="producto__detalle-min">
+                        <img src="./img/accesorios/Kit Accesorios Batería Solar Growatt Hope 4.8l-c1.webp" alt="img del producto" class="prdoucto__img">
+                        <p class="producto__titulo">Kit Accesorios Batería Solar Growatt Hope 4.8l-c1</p>
+                        <p class="producto__precio">$300</p>
+                        <a href="#" class="producto__link">Ver producto</a>
+                    </div>
+
+                    <div class="producto__detalle-min">
+                        <img src="./img/accesorios/Manta Solar P Climatizar Agua Accesorio Pileta Intex Cuotas.webp" alt="img del producto" class="prdoucto__img">
+                        <p class="producto__titulo">Manta Solar P Climatizar Agua Accesorio Pileta Intex Cuotas</p>
+                        <p class="producto__precio">$300</p>
+                        <a href="#" class="producto__link">Ver producto</a>
+                    </div>
+
+                    <div class="producto__detalle-min">
+                        <img src="./img/accesorios/Mini Reflector Led Con Panel Solar Sensor De Movimiento D03.webp" alt="img del producto" class="prdoucto__img">
+                        <p class="producto__titulo">Mini Reflector Led Con Panel Solar Sensor De Movimiento D03</p>
+                        <p class="producto__precio">$300</p>
+                        <a href="#" class="producto__link">Ver producto</a>
+                    </div>
+
+                </div>
+
+            </div>
+
         </section>
 
-        <section class="detalleProducto container">
+        <section class="detalleProducto container" id="detalleProductoSection">
             <div class="detalleProducto__container">
                 <div class="detalleProducto__producto">
                     <img src="./img/Paneles/Kit Energia Solar Multiuso Para Motorhome Camping Pesca 20w.webp" alt="imgaen del producto" class="detalleProducto__imagen">
@@ -874,10 +876,12 @@
         <footer class="footer">
 
             <p class="footer__titulo">Desarrollado por Sebastián D'Alessandro - 2022</p>
-     <!--        <a href="#presentacion">INICIO</a> -->
+
         </footer>
 
     </main>
     <script type="module" src="./js/app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- <script type="module" src="./js/login.js"></script> -->
 </body>
 </html>

@@ -26,6 +26,10 @@ const mensajeError = {
         valueMissing: 'Ingrese un mail valido.',
         typeMismatch:'El correo no es valido'
     },
+    usuario:{
+        valueMissing: 'Ingrese un usuario valido.',
+        typeMismatch:'El usuario no es valido'
+    },
     asunto:{
         valueMissing: 'El campo "asunto" no puede estar vacío.'
     },
@@ -40,10 +44,7 @@ function mostrarMensajeError (tipoDeInput, input){
     let mensaje = '';
     tipoErrores.forEach( (error) =>{
         if(input.validity[error]){
-            console.log(error)
-            console.log(input.validity[error])
-            console.log(mensajeError[tipoDeInput][error])
-            mensaje = mensajeError[tipoDeInput][error]
+              mensaje = mensajeError[tipoDeInput][error]
         }
     })
     return mensaje
