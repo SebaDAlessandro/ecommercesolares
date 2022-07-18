@@ -38,8 +38,8 @@
 }
 
 .producto__detalle-min {
-    border: 0.1px solid rgb(128 128 128);
-    border-radius: 5px;
+/*     border: 0.1px solid rgb(128 128 128);
+    border-radius: 5px; */
     display: flex;
     flex-direction: column;
     margin: 0.2px;

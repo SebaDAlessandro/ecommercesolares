@@ -52,7 +52,7 @@
 
 .producto__detalle-min:hover {
     filter: saturate(180%);
-    -webkit-transform:scale(1.3);transform:scale(1.05);
+    -webkit-transform:scale(1.3);transform:scale(0.95);
 }
 
 .prdoucto__img {

@@ -5,5 +5,205 @@
             "contraseña":"Abril2013",
             "id":1
         }
-    ]
+    ],
+    "productos":{
+        "paneles":[
+            {
+                "imagen":"./img/Paneles/Kit Energia Solar Multiuso Para Motorhome Camping Pesca 20w.webp",
+                "titulo": "Kit Energia Solar Multiuso Para Motorhome Camping Pesca 20w",
+                "precio": "300",
+                "promo":false,
+                "id":1
+            },
+            {
+                "imagen":"./img/Paneles/Kit Solar Completo Autoinstalable Energia Panel Bateria K1.webp",
+                "titulo":"Kit Solar Completo Autoinstalable Energia Panel Bateria K1",
+                "precio": "400",
+                "promo":false,
+                "id":2
+            },
+            {
+                "imagen":"./img/Paneles/Kit Panel Solar Completo Autoinstalable De 600w Con Usb K2.webp",
+                "titulo":"Kit Panel Solar Completo Autoinstalable De 600w Con Usb K2",
+                "precio": "500",
+                "promo":false,
+                "id":3
+            },
+            {
+                "imagen":"./img/Paneles/Kit Panel Solar Completo 1000w Autoinstalable Motorhome K3.webp",
+                "titulo":"Kit Panel Solar Completo 1000w Autoinstalable Motorhome K3",
+                "precio": "600",
+                "promo":false,
+                "id":4
+            },
+            {
+                "imagen":"./img/Paneles/Kit Panel Solar Completo Autoinstalable 1000w Energia Usb K4.webp",
+                "titulo":"Kit Panel Solar Completo Autoinstalable 1000w Energia Usb K4",
+                "precio": "700",
+                "promo":false,
+                "id":5
+            },
+            {
+                "imagen":"./img/Paneles/Panel Solar 20w Watts + Regulador De Carga 10 Amp.webp",
+                "titulo":"Panel Solar 20w Watts + Regulador De Carga 10 Amp",
+                "precio": "800",
+                "promo":false,
+                "id":6
+            },
+            {
+                "imagen":"./img/Paneles/Kit Panel Solar Completo 1000w Autoinstalable Motorhome K3.webp",
+                "titulo":"Kit Panel Solar Completo 1000w Autoinstalable Motorhome K3",
+                "precio": "600",
+                "promo":false,
+                "id":7
+            },
+            {
+                "imagen":"./img/Paneles/Kit Panel Solar Completo Autoinstalable 1000w Energia Usb K4.webp",
+                "titulo":"Kit Panel Solar Completo Autoinstalable 1000w Energia Usb K4",
+                "precio": "700",
+                "promo":false,
+                "id":8
+            },
+            {
+                "imagen":"./img/Paneles/Panel Solar 20w Watts + Regulador De Carga 10 Amp.webp",
+                "titulo":"Panel Solar 20w Watts + Regulador De Carga 10 Amp",
+                "precio": "800",
+                "promo":false,
+                "id":9
+            }
+        ],
+        "lamparas":[
+            {
+                "imagen":"./img/lamparas/Kit X 2 Luces Para Bicicleta Led Pilas Incluidas Roja+blanca.webp",
+                "titulo": "Kit X 2 Luces Para Bicicleta Led Pilas Incluidas Roja+blanca",
+                "precio": "3",
+                "promo":false,
+                "id":1
+            },
+            {
+                "imagen":"./img/lamparas/Lampara Solar 100 Led Reflector Solar Sensor Luz Exterior.webp",
+                "titulo":"Lampara Solar 100 Led Reflector Solar Sensor Luz Exterior",
+                "precio": "4",
+                "promo":false,
+                "id":2
+            },
+            {
+                "imagen":"./img/lamparas/Lámpara Solar Colgante Recargable 5 Funciones..webp",
+                "titulo":"Lámpara Solar Colgante Recargable 5 Funciones.",
+                "precio": "5",
+                "promo":false,
+                "id":3
+            },
+            {
+                "imagen":"./img/lamparas/Luz Solar Led Para Jardin Con Estaca Luz Fria Para Exterior.webp",
+                "titulo":"Luz Solar Led Para Jardin Con Estaca Luz Fria Para Exterior",
+                "precio": "6",
+                "promo":false,
+                "id":4
+            },
+            {
+                "imagen":"./img/lamparas/Pack X 2 Lampara Solar Led Luz Con Sensor Exterior 20 Led.webp",
+                "titulo":"Pack X 2 Lampara Solar Led Luz Con Sensor Exterior 20 Led",
+                "precio": "7",
+                "promo":false,
+                "id":5
+            },
+            {
+                "imagen":"./img/lamparas/Panel Reflector Solar 32 Led Sensor Movimiento Ip66.webp",
+                "titulo":"Panel Reflector Solar 32 Led Sensor Movimiento Ip66",
+                "precio": "8",
+                "promo":false,
+                "id":6
+            }
+        ],
+        "molinos":[
+            {
+                "imagen":"./img/molinos/Aerogenerador Aerocargador Turbina Eólica 400w 12v Regulador.webp",
+                "titulo": "Aerogenerador Aerocargador Turbina Eólica 400w 12v Regulador",
+                "precio": "30",
+                "promo":false,
+                "id":1
+            },
+            {
+                "imagen":"./img/molinos/Aerogenerador Generador Eolico 175w.webp",
+                "titulo":"Aerogenerador Generador Eolico 175w",
+                "precio": "40",
+                "promo":false,
+                "id":2
+            },
+            {
+                "imagen":"./img/molinos/Aerogenerador Generador Eolico Molino Viento Pack 10 Unid.webp",
+                "titulo":"Aerogenerador Generador Eolico Molino Viento Pack 10 Unid",
+                "precio": "50",
+                "promo":false,
+                "id":3
+            },
+            {
+                "imagen":"./img/molinos/Molino De Viento Ascheri Maquina Rueda Y Cola 8 Pies Cuotas.webp",
+                "titulo":"Molino De Viento Ascheri Maquina Rueda Y Cola 8 Pies Cuotas",
+                "precio": "60",
+                "promo":false,
+                "id":4
+            },
+            {
+                "imagen":"./img/molinos/Molino De Viento Ascheri Maquina Rueda Y Cola De 8 Pies.webp",
+                "titulo":"Molino De Viento Ascheri Maquina Rueda Y Cola De 8 Pies",
+                "precio": "70",
+                "promo":false,
+                "id":5
+            },
+            {
+                "imagen":"./img/molinos/Molino De Viento Brisa Ii De 8´ Incluye Torre Adaptadora.webp",
+                "titulo":"Molino De Viento Brisa Ii De 8´ Incluye Torre Adaptadora",
+                "precio": "80",
+                "promo":false,
+                "id":6
+            }
+        ],
+        "accesorios":[
+            {
+                "imagen":"./img/accesorios/Batería Solar Eólica De Ciclo Profundo 12 Volts 220 Ah Cuota.webp",
+                "titulo": "Batería Solar Eólica De Ciclo Profundo 12 Volts 220 Ah Cuota",
+                "precio": "3000",
+                "promo":false,
+                "id":1
+            },
+            {
+                "imagen":"./img/accesorios/Farol Estaca Solar De 8 Leds Jardín Exterior Suelo Panel Luz.webp",
+                "titulo":"Farol Estaca Solar De 8 Leds Jardín Exterior Suelo Panel Luz",
+                "precio": "4000",
+                "promo":false,
+                "id":2
+            },
+            {
+                "imagen":"./img/accesorios/Farol Portatil Linterna Led Recargable Solar Sol De Noche.webp",
+                "titulo":"Farol Portatil Linterna Led Recargable Solar Sol De Noche",
+                "precio": "5000",
+                "promo":false,
+                "id":3
+            },
+            {
+                "imagen":"./img/accesorios/Kit Accesorios Batería Solar Growatt Hope 4.8l-c1.webp",
+                "titulo":"Kit Accesorios Batería Solar Growatt Hope 4.8l-c1",
+                "precio": "6000",
+                "promo":false,
+                "id":4
+            },
+            {
+                "imagen":"./img/accesorios/Manta Solar P Climatizar Agua Accesorio Pileta Intex Cuotas.webp",
+                "titulo":"Manta Solar P Climatizar Agua Accesorio Pileta Intex Cuotas",
+                "precio": "7000",
+                "promo":false,
+                "id":5
+            },
+            {
+                "imagen":"./img/accesorios/Mini Reflector Led Con Panel Solar Sensor De Movimiento D03.webp",
+                "titulo":"Mini Reflector Led Con Panel Solar Sensor De Movimiento D03",
+                "precio": "8000",
+                "promo":false,
+                "id":6
+            }
+        ]
+    }
+    
 }

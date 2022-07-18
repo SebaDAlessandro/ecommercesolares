@@ -1,5 +1,6 @@
 import { valida } from "./validaciones.js";
 import { verficarPropietario } from "./login.js";
+import { paneles } from "./productos.js";
 
 const inputs = document.querySelectorAll('input')
 
@@ -14,3 +15,10 @@ const btnLogin = document.querySelector('#login')
 btnLogin.addEventListener('click', ()=>{
     verficarPropietario()
 })
+
+
+paneles()
+
+
+
+
