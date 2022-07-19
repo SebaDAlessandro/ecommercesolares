@@ -1,4 +1,6 @@
 import { insidePage } from "./inside.js"
+import { agregar } from './agregarProducto.js'
+
 
 export function verficarPropietario (){
 
@@ -41,5 +43,20 @@ function comporobarUsuario(usuario, contrasenia){
         swal("Oops!", "El usuario o la contraseña son incorrectos", "error");
     }
 }
+
+const botonAgregarProducto = document.querySelector('#agregarProducto')
+
+botonAgregarProducto.addEventListener('click', ()=>{
+    
+    const urlImagent = document.querySelector('#urlInput').value
+    const categoria = document.querySelector('#categoriaInput').value
+    const nombreProducto = document.querySelector('#nombreProductoInput').value
+    const precio = document.querySelector('#precioInput').value
+    const descripcion = document.querySelector('#descripcionInput').value
+
+    agregar(urlImagent, categoria, nombreProducto, precio, descripcion)
+
+})
+
 
 

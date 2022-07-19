@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce</title>
+
+    <!-- Google Api -->    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="./img/logo-seba-black.png">
+    <link rel="stylesheet" href="./css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./css/bases.css" type="text/css">
+    <link rel="stylesheet" href="./css/promociones.css" type="text/css">
+    <link rel="stylesheet" href="./css/header.css" type="text/css">
+    <link rel="stylesheet" href="./css/productos.css" type="text/css">
+    <link rel="stylesheet" href="./css/contacto.css" type="text/css">
+    <link rel="stylesheet" href="./css/footer.css" type="text/css">
+    <link rel="stylesheet" href="./css/login.css" type="text/css">
+    <link rel="stylesheet" href="./css/nuevoProducto.css" type="text/css">
+    <link rel="stylesheet" href="./css/allProductos.css" type="text/css">
+    <link rel="stylesheet" href="./css/detalleProducto.css" type="text/css">
+    <link rel="stylesheet" href="./css/off.css" type="text/css">
+</head>
+
+<body>
+
+    <header class="header container">
+        <div class="nav">
+            <img src="./img/log-roque.png" alt="logo e-commerce" class="nav__log">
+            <input type="text" class="nav__interaccion-busqueda" placeholder="Serch">
+            <div class="header__log-ingreso">
+                <button class="nav__interaccion-btn boton" id="login">Login</button>
+                <span class="off" id="bienvenida">Bienvenido</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="main container">
+
+        <section class="off" id="loginSection">
+            <div class="login__container">
+                <h1 class="login__titulo">Iniciar Sesión</h1>
+                <div class="login__usuario-container">
+                    <input id="usuario" type="email" name="usuario" class="contacto__input login__usuario" placeholder="Usuario" required data-tipo="usuario">
+                    <span class="input-mensage-error"></span>
+                </div>
+                <div class="login__password-container">
+                    <input id="contrasenia" type="password" name="contrasenia" class="contacto__input login__password" placeholder="Contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,}$" title="Al menos 6 caracteres, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." data-tipo="password">
+                    <span class="input-mensage-error"></span>
+                </div>
+                <buton class="login__buton boton" id="ingresar">Entrar</buton>
+            </div>
+        </section>
+
+        <section class="nuevoProducto containder" id="nuevoProductoSection">
+            <div class="nuevoProducto__container">
+                <h1 class="nuevoProducto__titulo">Agregar nuevo producto</h1>
+                <input type="text" class="nuevoProducto__input" placeholder="URL de imagen" required>
+                <input type="text" class="nuevoProducto__input" placeholder="Categoría" required>
+                <input type="text" class="nuevoProducto__input" placeholder="Nombre del producto" required>
+                <input type="text" class="nuevoProducto__input" placeholder="Precio del producto" required>
+                <input type="text" class="nuevoProducto__input" placeholder="Descripción del producto" required>
+                <buton class="nuevoProducto__buton boton">Agregar</buton>
+            </div>
+        </section>
+
+        <section class="contacto container" id="contacto" >
+            <div class="contacto__container">
+                <div class="contacto__empresa">
+                    <img src="./img/log-roque.png" alt="logo e-commerce" class="nav__log">
+<!--                     <p class="contacto__detalle">Quienes somos</p>
+ -->                </div>
+                <div class="contacto__formulario-container">
+                    <p class="contacto__titulo">contacto</p>
+                   <!--  <img src="./img/email-img.png" alt="img telefono" class="contacto__img"> -->
+                    <form action="https://formsubmit.co/sebadalessandro@hotmail.com" method="POST" class="contacto__formulario">
+                        <div class="input-container">
+                            <input
+                                class="contacto__input"
+                                id="name" type="text"
+                                name="name"
+                                placeholder="Nombre"
+                                pattern="[\s\S]{0,40}"
+                                required
+                                data-tipo="nombre"
+                                >
+                                <span class="input-mensage-error"></span>
+                        </div>
+                        <br>
+                        
+                        <div class="input-container">
+                            <input
+                                class="contacto__input"
+                                id="email"
+                                type="email"
+                                name="email"
+                                placeholder="E-mail"
+                                required
+                                data-tipo="email"
+                            >
+                            <span class="input-mensage-error"></span>
+                        </div>
+                        <br>
+                        
+                        <div class="input-container">
+                            <input
+                                class="contacto__input"
+                                id="subject"
+                                type="text"
+                                name="subject"
+                                placeholder="Asunto"
+                                required
+                                data-tipo="asunto"
+                            >
+                            <span class="input-mensage-error"></span>
+                        </div>
+                        <br>
+                        
+                        <textarea name="menssage" id="menssage" cols="30" rows="10" placeholder="Mensaje" class="contacto__input-textArea" required ></textarea>
+                        <br>
+                        <br>
+    
+                        <button class="contacto__boton boton"type="submit">Enviar</button>
+                        
+                        <input
+                            id="linkNext"
+                            type="hidden"
+                            name="_next"
+                            value="https://sebadalessandro.github.io/porfolio-alura-challenge/"
+                        >
+    
+                        <input
+                            id="captcha"
+                            type="hidden"
+                            name="_captcha"
+                            value="false"
+                        >
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+
+            <p class="footer__titulo">Desarrollado por Sebastián D'Alessandro - 2022</p>
+
+        </footer>
+
+    </main>
+
+    <script type="module" src="./js/app.js"></script>
+    <script type="module" src="./service/producto-service.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+</body>
+</html>
