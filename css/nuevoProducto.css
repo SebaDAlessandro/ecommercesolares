@@ -26,6 +26,17 @@
     font-weight: 700;
 }
 
+.nuevoProducto__input-container {
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+}
+
+.nuevoProducto__input-selectores {
+    display: flex;
+    margin-top: 5px;
+}
+
 .nuevoProducto__buton {
     background: var(--boton-celeste-ceniza);
     color: var(--fuente-blanco);

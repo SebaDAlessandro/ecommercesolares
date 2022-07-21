@@ -1,5 +1,5 @@
-import { insidePage } from "./inside.js"
-import { agregar } from './agregarProducto.js'
+/* import { insidePage } from "./inside.js"   --- BORRAR!!!!!---
+import { agregar } from './agregarProducto.js' */
 
 
 export function verficarPropietario (){
@@ -38,25 +38,12 @@ function comporobarUsuario(usuario, contrasenia){
         password: 'Abril2013'
     }
     if (propietario.name === usuario && propietario.password === contrasenia){
-        insidePage ();
+        window.location.href = '../allProductos.html'
     }else{
         swal("Oops!", "El usuario o la contraseña son incorrectos", "error");
     }
 }
 
-const botonAgregarProducto = document.querySelector('#agregarProducto')
-
-botonAgregarProducto.addEventListener('click', ()=>{
-    
-    const urlImagent = document.querySelector('#urlInput').value
-    const categoria = document.querySelector('#categoriaInput').value
-    const nombreProducto = document.querySelector('#nombreProductoInput').value
-    const precio = document.querySelector('#precioInput').value
-    const descripcion = document.querySelector('#descripcionInput').value
-
-    agregar(urlImagent, categoria, nombreProducto, precio, descripcion)
-
-})
 
 
 

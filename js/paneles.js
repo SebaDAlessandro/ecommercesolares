@@ -4,14 +4,16 @@ export function paneles(){
 
     const panelesArray = []
     productoServices.listaProductos().then((data)=>{
-        for (let i = 0; i < data.paneles.length; i++) {
-            panelesArray.push({
-                id: data.paneles[i].id,
-                imagen: data.paneles[i].imagen,
-                titulo: data.paneles[i].titulo,
-                promo: data.paneles[i].promo,
-                precio: data.paneles[i].precio,
-            })
+        for (let i = 0; i < data.length; i++) {
+            if(data[i].categoria === 'paneles'){
+                panelesArray.push({
+                    id: data[i].id,
+                    imagen: data[i].imagen,
+                    titulo: data[i].titulo,
+                    promo: data[i].promo,
+                    precio: data[i].precio,
+                })
+            }
         }
 
         const seccionTarjetas = document.querySelector('#listaPaneles')

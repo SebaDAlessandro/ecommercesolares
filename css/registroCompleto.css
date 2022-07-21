@@ -1,0 +1,45 @@
+.registro {
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+}
+
+.registro__botones {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.registro__agregarProducto {
+    background: var(--boton-celeste-ceniza);
+    color: white;
+    font-size: 1rem;
+    margin: 5px;
+    transition: 1s;
+    width: 10rem;
+}
+
+.registro__agregarProducto:hover {
+    background: white;
+    color: var(--boton-celeste-ceniza);;
+}
+
+.registro__volverMenu {
+    background: var(--background-mobile-azul);
+    color: white;
+    font-size: 1rem;
+    margin: 5px;
+    transition: 1s;
+    width: 10rem;
+}
+
+.registro__volverMenu:hover {
+    background: white;
+    color: var(--background-mobile-azul);
+}

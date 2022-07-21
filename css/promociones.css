@@ -1,6 +1,7 @@
 .promociones {
     align-items: flex-start;
     background: url(../img/panel_techo.jpg) center;
+    background-position: center center;
     background-size: cover;
     display: flex;
     flex-direction: column;

@@ -4,14 +4,16 @@ export function molinos(){
 
     const molinosArray = []
     productoServices.listaProductos().then((data)=>{
-        for (let i = 0; i < data.molinos.length; i++) {
-            molinosArray.push({
-                id: data.molinos[i].id,
-                imagen: data.molinos[i].imagen,
-                titulo: data.molinos[i].titulo,
-                promo: data.molinos[i].promo,
-                precio: data.molinos[i].precio,
-            })
+        for (let i = 0; i < data.length; i++) {
+            if(data[i].categoria === 'molinos'){
+                molinosArray.push({
+                    id: data[i].id,
+                    imagen: data[i].imagen,
+                    titulo: data[i].titulo,
+                    promo: data[i].promo,
+                    precio: data[i].precio,
+                })
+            }
         }
 
         const seccionTarjetas = document.querySelector('#listaMolinos')

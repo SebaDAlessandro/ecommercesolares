@@ -1,3 +1,4 @@
+//BORRAR!!!!-----------------------------------------------------
 export function insidePage(){
 
     const btnLogin = document.querySelector('#login')
@@ -17,4 +18,3 @@ export function insidePage(){
     allProductos.classList.add('allProductos', 'container')
 
 }
-

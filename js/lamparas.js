@@ -4,15 +4,17 @@ export function lamparas(){
 
     const lamparasArray = []
     productoServices.listaProductos().then((data)=>{
-        for (let i = 0; i < data.lamparas.length; i++) {
-            lamparasArray.push({
-                id: data.lamparas[i].id,
-                imagen: data.lamparas[i].imagen,
-                titulo: data.lamparas[i].titulo,
-                promo: data.lamparas[i].promo,
-                precio: data.lamparas[i].precio,
-            })
+        for (let i = 0; i < data.length; i++) {
+            if(data[i].categoria === 'lamparas'){
+                lamparasArray.push({
+                    id: data[i].id,
+                    imagen: data[i].imagen,
+                    titulo: data[i].titulo,
+                    promo: data[i].promo,
+                    precio: data[i].precio,
+                })
         }
+    }
 
         const seccionTarjetas = document.querySelector('#listaLamparas')
         for (let i = 0; i < 6; i++) {

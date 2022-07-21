@@ -4,14 +4,16 @@ export function accesorios(){
 
     const accesoriosArray = []
     productoServices.listaProductos().then((data)=>{
-        for (let i = 0; i < data.accesorios.length; i++) {
-            accesoriosArray.push({
-                id: data.accesorios[i].id,
-                imagen: data.accesorios[i].imagen,
-                titulo: data.accesorios[i].titulo,
-                promo: data.accesorios[i].promo,
-                precio: data.accesorios[i].precio,
-            })
+        for (let i = 0; i < data.length; i++) {
+            if(data[i].categoria === 'accesorios'){
+                accesoriosArray.push({
+                    id: data[i].id,
+                    imagen: data[i].imagen,
+                    titulo: data[i].titulo,
+                    promo: data[i].promo,
+                    precio: data[i].precio,
+                })
+            }
         }
 
         const seccionTarjetas = document.querySelector('#listaAccesorios')

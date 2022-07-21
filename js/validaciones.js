@@ -36,6 +36,16 @@ const mensajeError = {
     password:{
         valueMissing: 'El campo no puede estar vacío.',
         patternMismatch: "Al menos 6 caracteres, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales.",
+    },
+    url:{
+        valueMissing: 'El campo "URL" no puede estar vacío.'
+    },
+    precio:{
+        valueMissing: 'El campo "precio" no puede estar vacío.',
+        typeMismatch: 'Solo se deben de colocar números'
+    },
+    descripcion:{
+        valueMissing: 'El campo "descripción" no puede estar vacío.'
     }
 }
 

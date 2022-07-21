@@ -23,10 +23,9 @@
     <link rel="stylesheet" href="./css/allProductos.css" type="text/css">
     <link rel="stylesheet" href="./css/detalleProducto.css" type="text/css">
     <link rel="stylesheet" href="./css/off.css" type="text/css">
+    <link rel="stylesheet" href="./css/registroCompleto.css" type="text/css">
 </head>
-
 <body>
-
     <header class="header container">
         <div class="nav">
             <img src="./img/log-roque.png" alt="logo e-commerce" class="nav__log">
@@ -55,15 +54,11 @@
             </div>
         </section>
 
-        <section class="nuevoProducto containder" id="nuevoProductoSection">
-            <div class="nuevoProducto__container">
-                <h1 class="nuevoProducto__titulo">Agregar nuevo producto</h1>
-                <input type="text" class="nuevoProducto__input" placeholder="URL de imagen" required>
-                <input type="text" class="nuevoProducto__input" placeholder="Categoría" required>
-                <input type="text" class="nuevoProducto__input" placeholder="Nombre del producto" required>
-                <input type="text" class="nuevoProducto__input" placeholder="Precio del producto" required>
-                <input type="text" class="nuevoProducto__input" placeholder="Descripción del producto" required>
-                <buton class="nuevoProducto__buton boton">Agregar</buton>
+        <section class="registro container" id="registroSection">
+            <h1 class="registro__titulo">Registro exitoso!</h1>
+            <div class="registro__botones">
+                <button class="registro__agregarProducto boton" id="btnAgregarProducto">Ingresar otro producto</button>
+                <button class="registro__volverMenu boton" id="btnVolverMenu">Volver al menu principal</button>
             </div>
         </section>
 
@@ -152,9 +147,10 @@
 
     </main>
 
-    <script type="module" src="./js/app.js"></script>
-    <script type="module" src="./service/producto-service.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    
 </body>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./js/pageInicio.js"></script>
+    <script type="module" src="./js/registroCompleto.js"></script>
+
 </html>
