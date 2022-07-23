@@ -15,7 +15,9 @@
 }
 
 .detalleProducto__imagen {
-    width: 90vw;
+    border-radius: 8px;
+    max-height: 70vh;
+    width: 80vw;
 }
 
 .detalleProducto__descripcion {
@@ -31,7 +33,7 @@
 }
 
 .detalleProducto__precio {
-    font-size: 0.9rem;
+    font-size: 1.8rem;
     font-weight: 700;
     padding-bottom: 5px;
 }
@@ -58,7 +60,8 @@
     }
 
     .detalleProducto__imagen {
-        width: 40vw;
+        width: 30vw;
+        max-height: 70vh;
     }
 }
 
@@ -68,6 +71,7 @@
     }
 
     .detalleProducto__imagen {
-        width: 40vw;
+        width: 30vw;
+        max-height: 80vh;
     }
 }

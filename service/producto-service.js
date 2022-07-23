@@ -32,7 +32,6 @@ const actualizarProducto = (imagen, categoria, precio, promo, titulo, descripcio
     })
 }
 
-
 export const productoServices = {
     listaProductos,
     crearProducto,

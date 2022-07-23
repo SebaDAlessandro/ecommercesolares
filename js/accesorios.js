@@ -26,7 +26,7 @@ export function accesorios(){
             <img src="${accesoriosArray[i].imagen}" alt="img del producto" class="prdoucto__img">
             <p class="producto__titulo">${accesoriosArray[i].titulo}</p>
             <p class="producto__precio">$${accesoriosArray[i].precio}</p>
-            <a href="#" class="producto__link">Ver producto</a>
+            <a href="../detalleProducto.html?id=${accesoriosArray[i].id}" class="producto__link">Ver producto</a>
             </div>`
             
             const tarjeta = document.createElement('div')

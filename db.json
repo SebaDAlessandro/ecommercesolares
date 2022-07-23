@@ -21,8 +21,8 @@
       "categoria": "paneles",
       "precio": "400.000",
       "promo": "false",
-      "titulo": "Panel de locos",
-      "descripcion": "Kit Solar Completo Autoinstalable Energia Panel Bateria K1",
+      "titulo": "Kit Solar Completo Autoinstalable Energia Panel Bateria K1",
+      "descripcion": "Precio sugerido de compra",
       "id": 2
     },
     {
@@ -163,10 +163,11 @@
     },
     {
       "imagen": "./img/accesorios/Farol Estaca Solar De 8 Leds Jardín Exterior Suelo Panel Luz.webp",
-      "categoria": "accesorios",
-      "precio": "4000",
-      "promo": false,
+      "categoria": "lamparas",
+      "precio": "4.000",
+      "promo": "false",
       "titulo": "Farol Estaca Solar De 8 Leds Jardín Exterior Suelo Panel Luz",
+      "descripcion": "Lamparas pequeñas",
       "id": 32
     },
     {

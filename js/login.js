@@ -1,7 +1,3 @@
-/* import { insidePage } from "./inside.js"   --- BORRAR!!!!!---
-import { agregar } from './agregarProducto.js' */
-
-
 export function verficarPropietario (){
 
     const productosSection = document.querySelector('#productosSection')

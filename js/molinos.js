@@ -26,7 +26,7 @@ export function molinos(){
             <img src="${molinosArray[i].imagen}" alt="img del producto" class="prdoucto__img">
             <p class="producto__titulo">${molinosArray[i].titulo}</p>
             <p class="producto__precio">$${molinosArray[i].precio}</p>
-            <a href="#" class="producto__link">Ver producto</a>
+            <a href="../detalleProducto.html?id=${molinosArray[i].id}" class="producto__link">Ver producto</a>
             </div>`
             
             const tarjeta = document.createElement('div')

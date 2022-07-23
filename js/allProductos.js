@@ -24,7 +24,7 @@ for (let i = 0; i < productosArray.length; i++) {
         <img src="${productosArray[i].imagen}" alt="img del producto" class="prdoucto__img">
         <p class="producto__titulo">${productosArray[i].titulo}</p>
         <p class="producto__precio">$${productosArray[i].precio}</p>
-        <a href="#" class="producto__link">Ver producto</a>
+        <a href="../detalleProducto.html?id=${productosArray[i].id}" class="producto__link">Ver producto</a>
     </div>`
     
     const tarjeta = document.createElement('div')
@@ -59,9 +59,3 @@ const botonAgregarProducto = document.querySelector('#agregarProductos')
 botonAgregarProducto.addEventListener('click', ()=>{
     window.location.href = '../agregarProducto.html'
 })
-
-const eliminarProducto = (id)=>{
-    console.log('eliminando productos')
-}
-
-

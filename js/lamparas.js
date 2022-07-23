@@ -26,7 +26,7 @@ export function lamparas(){
             <img src="${lamparasArray[i].imagen}" alt="img del producto" class="prdoucto__img">
             <p class="producto__titulo">${lamparasArray[i].titulo}</p>
             <p class="producto__precio">$${lamparasArray[i].precio}</p>
-            <a href="#" class="producto__link">Ver producto</a>
+            <a href="../detalleProducto.html?id=${lamparasArray[i].id}" class="producto__link">Ver producto</a>
             </div>`
             
             const tarjeta = document.createElement('div')

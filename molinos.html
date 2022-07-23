@@ -24,7 +24,9 @@
     <link rel="stylesheet" href="./css/detalleProducto.css" type="text/css">
     <link rel="stylesheet" href="./css/off.css" type="text/css">
 </head>
+
 <body>
+
     <header class="header container">
         <div class="nav">
             <img src="./img/log-roque.png" alt="logo e-commerce" class="nav__log">
@@ -41,27 +43,18 @@
 
     <main class="main container">
 
-        <section class="off" id="loginSection">
-            <div class="login__container">
-                <h1 class="login__titulo">Iniciar Sesión</h1>
-                <div class="login__usuario-container">
-                    <input id="usuario" type="email" name="usuario" class="contacto__input login__usuario" placeholder="Usuario" required data-tipo="usuario">
-                    <span class="input-mensage-error"></span>
-                </div>
-                <div class="login__password-container">
-                    <input id="contrasenia" type="password" name="contrasenia" class="contacto__input login__password" placeholder="Contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,}$" title="Al menos 6 caracteres, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." data-tipo="password">
-                    <span class="input-mensage-error"></span>
-                </div>
-                <buton class="login__buton boton" id="ingresar">Entrar</buton>
-            </div>
-        </section>
+        <section class="allProductos container" id="allProductosSection">
 
-        <section class="detalleProducto container" id="detalleProductoSection">
-            <div class="detalleProducto__container" id="detalleProducto__container"></div>
-            <p class="detalleProductos__TituloSimilares">Productos Similares</p>
-            <div class="detalleProducto__similares" id="detalleProducto__similares">
-                <div class="productos__similares" id="productos__similares"></div> 
+            <div class="allProductos__paneles">
+
+                <div class="allProductos__cabecera">
+                    <p class="allProductos__titulo">Todos los productos</p>
+                </div>
+
+                <div class="allProductos__seleccion" id="allProductos"></div>
+            
             </div>
+
         </section>
 
         <section class="contacto container" id="contacto" >
@@ -148,10 +141,10 @@
         </footer>
 
     </main>
-<!--     <script type="module" src="./js/app.js"></script> -->
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script type="module" src="./js/detalleProducto.js"></script>
-
-    <!-- <script type="module" src="./js/login.js"></script> -->
 </body>
+
+<script src="./js/pageInicio.js"></script>
+<script type="module" src="./js/categoriaMolinos.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
 </html>

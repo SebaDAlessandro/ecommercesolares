@@ -1,23 +1,45 @@
 import { productoServices } from "../service/producto-service.js"
 
-const detalleProductoContainer = document.querySelector('#detalleProducto__container')
+const url = new URL(window.location)
+const id = url.searchParams.get('id')
 
-/*
-hay que agregar:
-    que cuando se haga click en detalle del producto el mismo dirija a este archivo
-    tiene que venir el num de id para utilizar la funcion productoServices.detalleProducto(id)
-*/
+productoServices.detalleProducto(id).then(data =>{
+    const divProducto = `<div class="detalleProducto__producto">
+    <img src="${data.imagen}" alt="imgaen del producto" class="detalleProducto__imagen">
+    </div>
+    <div class="detalleProducto__descripcion">
+    <p class="detalleProducto__titulo">${data.titulo}</p>
+    <p class="detalleProducto__precio">$${data.precio}</p>
+    <p class="detalleProducto__texto">${data.descripcion}</p>
+    </div>`
+    
+    const detalleProductoContainer = document.querySelector('#detalleProducto__container')
+    const detalleContainer = document.createElement('div')
+    detalleContainer.innerHTML = divProducto
+    detalleProductoContainer.appendChild(detalleContainer)
 
-const divProducto = `<div class="detalleProducto__producto">
-<img src="./img/Paneles/Kit Energia Solar Multiuso Para Motorhome Camping Pesca 20w.webp" alt="imgaen del producto" class="detalleProducto__imagen">
-</div>
-<div class="detalleProducto__descripcion">
-<p class="detalleProducto__titulo">Producto XYZ</p>
-<p class="detalleProducto__precio">$300</p>
-<p class="detalleProducto__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium itaque tempora consequuntur dolore blanditiis praesentium error alias aut temporibus qui nesciunt harum voluptatum soluta enim reiciendis ex nihil culpa consequatur laboriosam voluptatem accusamus, ut dicta? Quam deserunt quasi nihil tenetur, voluptatem ut alias? Pariatur consectetur quod ex voluptatibus, laudantium mollitia.
-</p>
-</div>`
+    cargarProductosCategoria(data.categoria)
+})
 
-const detalleContainer = document.createElement('div')
-detalleContainer.innerHTML = divProducto
-detalleProductoContainer.appendChild(detalleContainer)
+function cargarProductosCategoria(categoria){
+    const productosSimilaresDiv = document.querySelector('#productos__similares')
+    productoServices.listaProductos().then(respuesta =>{
+        for (let i = 0; i < respuesta.length; i++) {
+            if(respuesta[i].categoria === categoria){
+                const divSimilar =`<img src="${respuesta[i].imagen}" alt="img del producto" class="prdoucto__img">
+                <p class="producto__titulo">${respuesta[i].titulo}</p>
+                <p class="producto__precio">$${respuesta[i].precio}</p>
+                <a href="../detalleProducto.html?id=${respuesta[i].id}" class="producto__link">Ver producto</a>`
+
+                const tarjetaSimilar = document.createElement('div')
+                tarjetaSimilar.classList.add('producto__detalle-min')
+                tarjetaSimilar.id='producto__detalle-min'
+                tarjetaSimilar.innerHTML = divSimilar
+                productosSimilaresDiv.appendChild(tarjetaSimilar)
+            }           
+        }
+    }).catch(err =>{
+        alert('Error inesperado')
+    })
+}
+
