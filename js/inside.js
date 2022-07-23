@@ -1,5 +1,5 @@
 //BORRAR!!!!-----------------------------------------------------
-export function insidePage(){
+/* export function insidePage(){
 
     const btnLogin = document.querySelector('#login')
     btnLogin.classList.remove('nav__interaccion-btn', 'boton')
@@ -17,4 +17,4 @@ export function insidePage(){
     allProductos.classList.remove('off')
     allProductos.classList.add('allProductos', 'container')
 
-}
+} */

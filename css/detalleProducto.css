@@ -2,9 +2,6 @@
     display: flex;
     flex-direction: column;
     margin: 10px 0;
-
-        /* quitar esta propiedad para ver el selector promociones */
-        display: none;
 }
 
 .detalleProducto__container {

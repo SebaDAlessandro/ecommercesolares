@@ -17,7 +17,11 @@ export function accesorios(){
         }
 
         const seccionTarjetas = document.querySelector('#listaAccesorios')
-        for (let i = 0; i < 6; i++) {
+        let totalLength = 6
+        if(accesoriosArray.length<totalLength){
+            totalLength = accesoriosArray.length
+        }
+        for (let i = 0; i < totalLength; i++) {
             const divTarjeta = `<div class="producto__detalle-min" id="tarjeta">
             <img src="${accesoriosArray[i].imagen}" alt="img del producto" class="prdoucto__img">
             <p class="producto__titulo">${accesoriosArray[i].titulo}</p>

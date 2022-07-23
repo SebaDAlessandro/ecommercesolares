@@ -17,7 +17,11 @@ export function paneles(){
         }
 
         const seccionTarjetas = document.querySelector('#listaPaneles')
-        for (let i = 0; i < 6; i++) {
+        let totalLength = 6
+        if(panelesArray.length<totalLength){
+            totalLength = panelesArray.length
+        }
+        for (let i = 0; i < totalLength; i++) {
             const divTarjeta = `<div class="producto__detalle-min" id="tarjeta">
             <img src="${panelesArray[i].imagen}" alt="img del producto" class="prdoucto__img">
             <p class="producto__titulo">${panelesArray[i].titulo}</p>

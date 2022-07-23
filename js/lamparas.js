@@ -17,7 +17,11 @@ export function lamparas(){
     }
 
         const seccionTarjetas = document.querySelector('#listaLamparas')
-        for (let i = 0; i < 6; i++) {
+        let totalLength = 6
+        if(lamparasArray.length<totalLength){
+            totalLength = lamparasArray.length
+        }
+        for (let i = 0; i < totalLength; i++) {
             const divTarjeta = `<div class="producto__detalle-min" id="tarjeta">
             <img src="${lamparasArray[i].imagen}" alt="img del producto" class="prdoucto__img">
             <p class="producto__titulo">${lamparasArray[i].titulo}</p>

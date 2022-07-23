@@ -17,7 +17,11 @@ export function molinos(){
         }
 
         const seccionTarjetas = document.querySelector('#listaMolinos')
-        for (let i = 0; i < 6; i++) {
+        let totalLength = 6
+        if(molinosArray.length<totalLength){
+            totalLength = molinosArray.length
+        }
+        for (let i = 0; i < totalLength; i++) {
             const divTarjeta = `<div class="producto__detalle-min" id="tarjeta">
             <img src="${molinosArray[i].imagen}" alt="img del producto" class="prdoucto__img">
             <p class="producto__titulo">${molinosArray[i].titulo}</p>

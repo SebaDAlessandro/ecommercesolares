@@ -10,7 +10,33 @@ const crearProducto = (imagen, categoria, precio, promo, titulo, descripcion)=> 
     })
 }
 
+const eliminarProducto = (id)=>{
+    return fetch(`http://localhost:3000/productos/${id}`,{
+        method: 'DELETE'
+    })
+}
+
+const detalleProducto = (id)=>fetch(`http://localhost:3000/productos/${id}`).then((respuesta)=> respuesta.json())
+
+const actualizarProducto = (imagen, categoria, precio, promo, titulo, descripcion, id)=>{
+    return fetch(`http://localhost:3000/productos/${id}`,{
+        method: 'PUT',
+        headers:{
+            'Content-type':'application/json'
+        },
+        body: JSON.stringify({imagen, categoria, precio, promo, titulo, descripcion})
+    }).then(respuesta =>{
+        console.log(respuesta)
+    }).catch(err =>{
+        console.log(err)
+    })
+}
+
+
 export const productoServices = {
     listaProductos,
     crearProducto,
+    eliminarProducto,
+    detalleProducto,
+    actualizarProducto,
 }
