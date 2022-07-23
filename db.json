@@ -45,8 +45,9 @@
       "imagen": "./img/Paneles/Kit Panel Solar Completo Autoinstalable 1000w Energia Usb K4.webp",
       "categoria": "paneles",
       "precio": "700",
-      "promo": false,
+      "promo": "false",
       "titulo": "Kit Panel Solar Completo Autoinstalable 1000w Energia Usb K4",
+      "descripcion": "undefined",
       "id": 5
     },
     {

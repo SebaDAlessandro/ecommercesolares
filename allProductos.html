@@ -43,92 +43,6 @@
 
     <main class="main container">
 
-        <section class="off" id="loginSection">
-            <div class="login__container">
-                <h1 class="login__titulo">Iniciar Sesión</h1>
-                <div class="login__usuario-container">
-                    <input id="usuario" type="email" name="usuario" class="contacto__input login__usuario" placeholder="Usuario" required data-tipo="usuario">
-                    <span class="input-mensage-error"></span>
-                </div>
-                <div class="login__password-container">
-                    <input id="contrasenia" type="password" name="contrasenia" class="contacto__input login__password" placeholder="Contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,}$" title="Al menos 6 caracteres, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." data-tipo="password">
-                    <span class="input-mensage-error"></span>
-                </div>
-                <buton class="login__buton boton" id="ingresar">Entrar</buton>
-            </div>
-        </section>
-
-        <section class="off" id="nuevoProductoSection">
-            <div class="nuevoProducto__container">
-                <h1 class="nuevoProducto__titulo">Agregar nuevo producto</h1>
-
-                <div class="nuevoProducto__input-container">
-                    <input
-                        class="nuevoProducto__input"
-                        id="urlInput"
-                        type="url"
-                        placeholder="URL de imagen"
-                        required
-                        data-tipo="url"
-                        >
-                    <span class="input-mensage-error"></span>
-                </div>
-                
-                <div class="nuevoProducto__input-container">
-                    <input
-                        class="nuevoProducto__input"
-                        id="nombreProductoInput"
-                        type="text"
-                        placeholder="Nombre del producto"
-                        required
-                        data-tipo="nombre"
-                        >
-                    <span class="input-mensage-error"></span>
-                </div>
-                
-                <div class="nuevoProducto__input-container">
-                    <input
-                    class="nuevoProducto__input"
-                    id="precioInput"
-                    type="text"
-                    placeholder="Precio del producto"
-                    pattern="\d{0,10}"
-                    required
-                    data-tipo="precio"
-                    >
-                    <span class="input-mensage-error"></span>
-                </div>
-
-                <div class="nuevoProducto__input-container">
-                    <input
-                    id="descripcionInput"
-                    type="text"
-                    class="nuevoProducto__input"
-                    placeholder="Descripción del producto"
-                    required
-                    data-tipo="descripcion"
-                    >
-                    <span class="input-mensage-error"></span>
-                </div>
-
-                <div class="nuevoProducto__input-selectores">
-                    <select name="categoria" id="categoriaInput" required>
-                        <option value="paneles" selected>Paneles</option>
-                        <option value="lamparas">Lamparas</option>
-                        <option value="molinos">Molinos</option>
-                        <option value="accesorios">Accesorios y otros</option>
-                    </select>
-    
-                    <select name="promo" id="promoInput" required>
-                        <option value=true>En promo</option>
-                        <option value=false selected>Sin promo</option>
-                    </select>
-                </div>
-
-                <buton class="nuevoProducto__buton boton" id="agregarProducto">Agregar</buton>
-            </div>
-        </section>
-
         <section class="allProductos container" id="allProductosSection">
 
             <div class="allProductos__paneles">
@@ -144,13 +58,14 @@
 
         </section>
 
-        <footer class="footer">
-
-            <p class="footer__titulo">Desarrollado por Sebastián D'Alessandro - 2022</p>
-
-        </footer>
-
     </main>
+
+    <footer class="footer">
+
+        <p class="footer__titulo">Desarrollado por Sebastián D'Alessandro - 2022</p>
+
+    </footer>
+
 </body>
 
 <script src="./js/pageInicio.js"></script>

@@ -16,23 +16,23 @@ export function accesorios(){
             }
         }
 
-        const seccionTarjetas = document.querySelector('#listaAccesorios')
-        let totalLength = 6
-        if(accesoriosArray.length<totalLength){
-            totalLength = accesoriosArray.length
-        }
-        for (let i = 0; i < totalLength; i++) {
-            const divTarjeta = `<div class="producto__detalle-min" id="tarjeta">
-            <img src="${accesoriosArray[i].imagen}" alt="img del producto" class="prdoucto__img">
-            <p class="producto__titulo">${accesoriosArray[i].titulo}</p>
-            <p class="producto__precio">$${accesoriosArray[i].precio}</p>
-            <a href="../detalleProducto.html?id=${accesoriosArray[i].id}" class="producto__link">Ver producto</a>
-            </div>`
-            
-            const tarjeta = document.createElement('div')
-            tarjeta.innerHTML = divTarjeta
-            seccionTarjetas.appendChild(tarjeta)
-        }
+    const seccionTarjetas = document.querySelector('#listaAccesorios')
+    let totalLength = 6
+    if(accesoriosArray.length<totalLength){
+        totalLength = accesoriosArray.length
+    }
+    for (let i = 0; i < totalLength; i++) {
+        const divTarjeta = `<div class="producto__detalle-min" id="tarjeta">
+        <img src="${accesoriosArray[i].imagen}" alt="img del producto" class="prdoucto__img">
+        <p class="producto__titulo">${accesoriosArray[i].titulo}</p>
+        <p class="producto__precio">$${accesoriosArray[i].precio}</p>
+        <a href="../detalleProducto.html?id=${accesoriosArray[i].id}" class="producto__link">Ver producto</a>
+        </div>`
+        
+        const tarjeta = document.createElement('div')
+        tarjeta.innerHTML = divTarjeta
+        seccionTarjetas.appendChild(tarjeta)
+    }
     })
     .catch((err) => alert("Ocurrió un error"));
 }

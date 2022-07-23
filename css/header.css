@@ -53,6 +53,11 @@
 }
 
 @media screen and (min-width: 1024px) {
+
+    .nav {
+        padding: 5px 20px;
+    }
+
     .nav__log {
         display: flex;
         border-radius: 15px;

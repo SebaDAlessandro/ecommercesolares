@@ -16,7 +16,6 @@ export function verficarPropietario (){
 
 }
 
-
 const botonIngreso = document.querySelector('#ingresar')
 
 botonIngreso.addEventListener('click', ()=>{

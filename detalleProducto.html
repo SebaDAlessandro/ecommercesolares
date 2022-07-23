@@ -24,37 +24,18 @@
     <link rel="stylesheet" href="./css/detalleProducto.css" type="text/css">
     <link rel="stylesheet" href="./css/off.css" type="text/css">
 </head>
+
 <body>
+
     <header class="header container">
         <div class="nav">
             <img src="./img/log-roque.png" alt="logo e-commerce" class="nav__log">
             <input type="text" class="nav__interaccion-busqueda" placeholder="Serch">
-            <div class="nav__interaccion-home-botones">
-                <a class="nav__interaccion-home" href="./index.html"><span class="material-symbols-outlined">home</span></a>
-                <div class="header__log-ingreso">
-                    <button class="nav__interaccion-btn boton" id="login">Login</button>
-                    <span class="off" id="bienvenida">Bienvenido</span>
-                </div>
-            </div>
+            <a class="nav__interaccion-home" href="./index.html"><span class="material-symbols-outlined">home</span></a>
         </div>
     </header>
 
     <main class="main container">
-
-        <section class="off" id="loginSection">
-            <div class="login__container">
-                <h1 class="login__titulo">Iniciar Sesión</h1>
-                <div class="login__usuario-container">
-                    <input id="usuario" type="email" name="usuario" class="contacto__input login__usuario" placeholder="Usuario" required data-tipo="usuario">
-                    <span class="input-mensage-error"></span>
-                </div>
-                <div class="login__password-container">
-                    <input id="contrasenia" type="password" name="contrasenia" class="contacto__input login__password" placeholder="Contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,}$" title="Al menos 6 caracteres, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." data-tipo="password">
-                    <span class="input-mensage-error"></span>
-                </div>
-                <buton class="login__buton boton" id="ingresar">Entrar</buton>
-            </div>
-        </section>
 
         <section class="detalleProducto container" id="detalleProductoSection">
             <div class="detalleProducto__container" id="detalleProducto__container"></div>
@@ -141,17 +122,17 @@
             </div>
         </section>
 
-        <footer class="footer">
-
-            <p class="footer__titulo">Desarrollado por Sebastián D'Alessandro - 2022</p>
-
-        </footer>
-
     </main>
-<!--     <script type="module" src="./js/app.js"></script> -->
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script type="module" src="./js/detalleProducto.js"></script>
 
-    <!-- <script type="module" src="./js/login.js"></script> -->
+    <footer class="footer">
+
+        <p class="footer__titulo">Desarrollado por Sebastián D'Alessandro - 2022</p>
+
+    </footer>
+
 </body>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script type="module" src="./js/detalleProducto.js"></script>
+
 </html>

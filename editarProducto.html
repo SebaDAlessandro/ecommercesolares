@@ -31,32 +31,11 @@
         <div class="nav">
             <img src="./img/log-roque.png" alt="logo e-commerce" class="nav__log">
             <input type="text" class="nav__interaccion-busqueda" placeholder="Serch">
-            <div class="nav__interaccion-home-botones">
-                <a class="nav__interaccion-home" href="./index.html"><span class="material-symbols-outlined">home</span></a>
-                <div class="header__log-ingreso">
-                    <button class="nav__interaccion-btn boton" id="login">Login</button>
-                    <span class="off" id="bienvenida">Bienvenido</span>
-                </div>
-            </div>
+            <a class="nav__interaccion-home" href="./index.html"><span class="material-symbols-outlined">home</span></a>
         </div>
     </header>
 
     <main class="main container">
-
-        <section class="off" id="loginSection">
-            <div class="login__container">
-                <h1 class="login__titulo">Iniciar Sesión</h1>
-                <div class="login__usuario-container">
-                    <input id="usuario" type="email" name="usuario" class="contacto__input login__usuario" placeholder="Usuario" required data-tipo="usuario">
-                    <span class="input-mensage-error"></span>
-                </div>
-                <div class="login__password-container">
-                    <input id="contrasenia" type="password" name="contrasenia" class="contacto__input login__password" placeholder="Contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,}$" title="Al menos 6 caracteres, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." data-tipo="password">
-                    <span class="input-mensage-error"></span>
-                </div>
-                <buton class="login__buton boton" id="ingresar">Entrar</buton>
-            </div>
-        </section>
 
         <section class="nuevoProducto container" id="nuevoProductoSection">
             <div class="nuevoProducto__container">
@@ -128,14 +107,15 @@
                 <buton class="nuevoProducto__buton boton" id="editarProducto">Editar Producto</buton>
             </div>
         </section>
-
-        <footer class="footer">
-
-            <p class="footer__titulo">Desarrollado por Sebastián D'Alessandro - 2022</p>
-
-        </footer>
-
+   
     </main>
+
+    <footer class="footer">
+
+        <p class="footer__titulo">Desarrollado por Sebastián D'Alessandro - 2022</p>
+
+    </footer>
+
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
