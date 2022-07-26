@@ -1,11 +1,21 @@
+.header {
+    background: var(--background-mobile-azul);
+}
+
 .nav {
     align-items: center;
-    background: var(--background-mobile-azul);
     display: flex;
     flex-direction: row;
+    height: 20px;
     justify-content: space-between;
     margin: 10px 0;
-    padding: 5px 2px;
+}
+
+.search-container{
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
 }
 
 .nav__interaccion-home-botones {
@@ -46,16 +56,10 @@
     color: var(--fuente-blanco);
 }
 
-.nav__interaccion-busqueda {
-    border-color: rgb(196, 196, 196);
-    border-radius: 5px;
-    height: 25px;
-}
-
 @media screen and (min-width: 1024px) {
 
     .nav {
-        padding: 5px 20px;
+        height: 55px;
     }
 
     .nav__log {

@@ -9,11 +9,10 @@
     justify-content: flex-end;
     padding-bottom: 15px;
     padding-left: 15px;
+    top: 180px;
     width: -webkit-fill-available;
-
-    /* quitar esta propiedad para ver el selector promociones */
-/*     display: none;
- */ }
+    margin-top: 11px;
+}
 
 .promociones__acceso{
     background: rgba(220, 220, 220, 0.527);

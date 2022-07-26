@@ -23,25 +23,48 @@
     <link rel="stylesheet" href="./css/allProductos.css" type="text/css">
     <link rel="stylesheet" href="./css/detalleProducto.css" type="text/css">
     <link rel="stylesheet" href="./css/off.css" type="text/css">
+    <link rel="stylesheet" href="./css/search.css" type="text/css">
 </head>
 
 <body>
 
     <header class="header container">
+
         <div class="nav">
             <img src="./img/log-roque.png" alt="logo e-commerce" class="nav__log">
-            <input type="text" class="nav__interaccion-busqueda" placeholder="Serch">
+            <a class="search-container" id="iconSearch">Search<span class="material-symbols-outlined">search</span></a>    
+            <a class="nav__interaccion-home" href="./index.html"><span class="material-symbols-outlined">home</span></a>
             <div class="nav__interaccion-home-botones">
-                <a class="nav__interaccion-home" href="./index.html"><span class="material-symbols-outlined">home</span></a>
                 <div class="header__log-ingreso">
                     <button class="nav__interaccion-btn boton" id="login">Login</button>
                     <span class="off" id="bienvenida">Bienvenido</span>
                 </div>
-            </div>
+            </div>     
         </div>
-    </header>
 
-    <main class="main container">
+    </header>
+    
+    <main class="main container" id="main">
+
+        <section class="search container">
+
+            <div class="off" id="nav__busqueda-container">
+        
+                <input
+                    type="text"
+                    class="nav__interaccion-busqueda"
+                    placeholder="¿Qué producto desea buscar?"
+                    id="searchInput"
+                    name="producto"
+                    data-tipo="producto"
+                    >
+                    <span class="input-mensage-error"></span>
+
+                <ul class="nav__lista-productos" id="boxSearch"></ul>
+        
+            </div>
+    
+        </section>
 
         <section class="promociones container" id="promocionesSection">
             <div class="promociones__acceso">
@@ -204,6 +227,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="./js/pageInicio.js"></script>
 <script type="module" src="./js/app.js"></script>
+<script type="module" src="./js/searchProducto.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     
 </html>

@@ -46,7 +46,10 @@ const mensajeError = {
     },
     descripcion:{
         valueMissing: 'El campo "descripción" no puede estar vacío.'
-    }
+    },
+    producto:{
+        valueMissing: 'El campo "nombre" no puede estar vacío.'
+    },
 }
 
 function mostrarMensajeError (tipoDeInput, input){
