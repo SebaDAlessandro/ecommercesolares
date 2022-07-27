@@ -1,0 +1,24 @@
+{
+  "name": "ChallengeEcommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebaDAlessandro/e-commerce-lamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebaDAlessandro/e-commerce-lamp/issues"
+  },
+  "homepage": "https://github.com/SebaDAlessandro/e-commerce-lamp#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
