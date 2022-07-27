@@ -5,11 +5,7 @@
     height: 50vh;
     padding: 0px;
     padding-bottom: 20px;
-    width: 100%;
-
-    /* quitar esta propiedad para ver el selector promociones */
-/*     display: none;
- */    
+    width: 100%;   
 }
 
 .nuevoProducto__container {
@@ -32,9 +28,20 @@
     width: -webkit-fill-available;
 }
 
-.nuevoProducto__input-selectores {
+.nuevoProducto__selectores {
+    display: flex;
+    flex-direction: column;
+}
+
+.nuevoProducto__input-categoria, .nuevoProducto__input-promocion {
     display: flex;
     margin-top: 5px;
+    align-items: center;
+    padding: 3px;
+}
+
+.categoria, .promo {
+    padding-right: 5px;
 }
 
 .nuevoProducto__buton {

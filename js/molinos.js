@@ -1,11 +1,12 @@
-import { productoServices } from '../service/producto-service.js' 
+import { productoServices } from '../service/producto-service.js'
+import { formateandoPrecio } from '../service/formatearPesos.js';
 
 export function molinos(){
 
     const molinosArray = []
     productoServices.listaProductos().then((data)=>{
         for (let i = 0; i < data.length; i++) {
-            if(data[i].categoria === 'molinos'){
+            if(data[i].categoria === 'molinos' && !data[i].promo){
                 molinosArray.push({
                     id: data[i].id,
                     imagen: data[i].imagen,
@@ -22,11 +23,12 @@ export function molinos(){
         totalLength = molinosArray.length
     }
     for (let i = 0; i < totalLength; i++) {
+        const precio = formateandoPrecio(molinosArray[i].precio)
         const divTarjeta = `
         <div class="producto__detalle-min" id="tarjeta">
             <img src="${molinosArray[i].imagen}" alt="img del producto" class="prdoucto__img">
             <p class="producto__titulo">${molinosArray[i].titulo}</p>
-            <p class="producto__precio">$${molinosArray[i].precio}</p>
+            <p class="producto__precio">${precio}</p>
             <a href="../detalleProducto.html?id=${molinosArray[i].id}" class="producto__link">Ver producto</a>
         </div>`
         

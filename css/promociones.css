@@ -26,6 +26,20 @@
     font-weight: 700;
 }
 
+.promoProducto__precio{
+    text-decoration-line: line-through;
+}
+
+.promoProducto__precioDescuento {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 3px 0;
+}
+
+.prmoProducto__descuento {
+    font-size: 12px;
+}
+
 .promociones__detalle {
     color: #ffffff;
     font-size: 1.5rem;

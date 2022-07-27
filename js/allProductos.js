@@ -1,4 +1,5 @@
 import { productoServices } from '../service/producto-service.js'
+import { formateandoPrecio } from '../service/formatearPesos.js';
 
 const productosArray = []
 productoServices.listaProductos().then((data)=>{
@@ -15,6 +16,8 @@ for (let i = 0; i < data.length; i++) {
 const seccionTarjetas = document.querySelector('#allProductos')
 
 for (let i = 0; i < productosArray.length; i++) {
+    let precio = formateandoPrecio(productosArray[i].precio)
+
     const divTarjeta = `
     <div class="producto__detalle-min" id="tarjeta">
         <div class="producto__detalle-min-opciones">
@@ -23,7 +26,7 @@ for (let i = 0; i < productosArray.length; i++) {
         </div>
         <img src="${productosArray[i].imagen}" alt="img del producto" class="prdoucto__img">
         <p class="producto__titulo">${productosArray[i].titulo}</p>
-        <p class="producto__precio">$${productosArray[i].precio}</p>
+        <p class="producto__precio">${precio}</p>
         <a href="../detalleProducto.html?id=${productosArray[i].id}" class="producto__link">Ver producto</a>
     </div>`
     

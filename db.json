@@ -10,60 +10,71 @@
     {
       "imagen": "./img/Paneles/Kit Energia Solar Multiuso Para Motorhome Camping Pesca 20w.webp",
       "categoria": "paneles",
-      "precio": "300",
-      "promo": "false",
+      "precio": 300,
+      "promo": false,
       "titulo": "Kit Energia Solar Multiuso Para Motorhome Camping Pesca 20w",
       "descripcion": "Lampara solar",
+      "descuento": {},
       "id": 1
     },
     {
       "imagen": "./img/Paneles/Kit Solar Completo Autoinstalable Energia Panel Bateria K1.webp",
       "categoria": "paneles",
-      "precio": "400.000",
-      "promo": "false",
+      "precio": 400000,
+      "promo": false,
       "titulo": "Kit Solar Completo Autoinstalable Energia Panel Bateria K1",
       "descripcion": "Precio sugerido de compra",
+      "descuento": {},
       "id": 2
     },
     {
       "imagen": "./img/Paneles/Kit Panel Solar Completo Autoinstalable De 600w Con Usb K2.webp",
       "categoria": "paneles",
-      "precio": "500",
+      "precio": 500,
       "promo": false,
       "titulo": "Kit Panel Solar Completo Autoinstalable De 600w Con Usb K2",
+      "descripcion": "undefined",
+      "descuento": {},
       "id": 3
     },
     {
       "imagen": "./img/Paneles/Kit Panel Solar Completo 1000w Autoinstalable Motorhome K3.webp",
       "categoria": "paneles",
-      "precio": "600",
+      "precio": 600,
       "promo": false,
       "titulo": "Kit Panel Solar Completo 1000w Autoinstalable Motorhome K3",
+      "descripcion": "undefined",
+      "descuento": {},
       "id": 4
     },
     {
       "imagen": "./img/Paneles/Kit Panel Solar Completo Autoinstalable 1000w Energia Usb K4.webp",
       "categoria": "paneles",
-      "precio": "700",
-      "promo": "false",
+      "precio": 700,
+      "promo": false,
       "titulo": "Kit Panel Solar Completo Autoinstalable 1000w Energia Usb K4",
       "descripcion": "undefined",
+      "descuento": {},
       "id": 5
     },
     {
       "imagen": "./img/Paneles/Panel Solar 20w Watts + Regulador De Carga 10 Amp.webp",
       "categoria": "paneles",
-      "precio": "800",
+      "precio": 800,
       "promo": false,
       "titulo": "Panel Solar 20w Watts + Regulador De Carga 10 Amp",
+      "descripcion": "undefined",
+      "descuento": {},
       "id": 6
     },
     {
       "imagen": "./img/lamparas/Kit X 2 Luces Para Bicicleta Led Pilas Incluidas Roja+blanca.webp",
       "categoria": "lamparas",
-      "precio": "3",
+      "precio": 3,
       "promo": false,
       "titulo": "Kit X 2 Luces Para Bicicleta Led Pilas Incluidas Roja+blanca",
+      "descripcion": "undefined",
+      "descuento": {},
       "id": 10
     },
     {
@@ -117,9 +128,14 @@
     {
       "imagen": "./img/molinos/Aerogenerador Generador Eolico 175w.webp",
       "categoria": "molinos",
-      "precio": "40",
-      "promo": false,
+      "precio": 40,
+      "promo": true,
       "titulo": "Aerogenerador Generador Eolico 175w",
+      "descripcion": "undefined",
+      "descuento": {
+        "precioDescuento": 32,
+        "descuento": "20"
+      },
       "id": 22
     },
     {
@@ -166,7 +182,7 @@
       "imagen": "./img/accesorios/Farol Estaca Solar De 8 Leds Jardín Exterior Suelo Panel Luz.webp",
       "categoria": "lamparas",
       "precio": "4.000",
-      "promo": "false",
+      "promo": false,
       "titulo": "Farol Estaca Solar De 8 Leds Jardín Exterior Suelo Panel Luz",
       "descripcion": "Lamparas pequeñas",
       "id": 32
@@ -182,29 +198,51 @@
     {
       "imagen": "./img/accesorios/Manta Solar P Climatizar Agua Accesorio Pileta Intex Cuotas.webp",
       "categoria": "accesorios",
-      "precio": "7.000.000",
-      "promo": "false",
+      "precio": 5300000,
+      "promo": false,
       "titulo": "Climatizador para Piletas",
       "descripcion": "Manta Solar P Climatizar Agua Accesorio Pileta Intex Cuotas",
+      "descuento": {},
       "id": 35
     },
     {
       "imagen": "./img/accesorios/Mini Reflector Led Con Panel Solar Sensor De Movimiento D03.webp",
       "categoria": "lamparas",
-      "precio": "8.000",
-      "promo": "false",
+      "precio": 8000,
+      "promo": true,
       "titulo": "Lampara con sensor de movimiento",
       "descripcion": "Mini Reflector Led Con Panel Solar Sensor De Movimiento D03",
+      "descuento": {
+        "precioDescuento": 6400,
+        "descuento": "20"
+      },
       "id": 36
     },
     {
       "imagen": "https://http2.mlstatic.com/D_NQ_NP_860615-MLA49385132484_032022-O.webp",
-      "categoria": "paneles",
-      "precio": "149.900",
-      "promo": false,
+      "categoria": "accesorios",
+      "precio": 149900,
+      "promo": true,
       "titulo": "Termotanque Solar 200 Lts Acero Kit Eléctrico + Controlador",
       "descripcion": "Termotanque Solar termosifónico construido íntegro en acero inoxidable, Capacidad de ahorro 60 % en invierno al 100 % el resto del año. Inversión recuperable en 2/3 años, con más de 15 años de vida útil para disfrutar de agua caliente sanitaria a muy bajo costo",
+      "descuento": {
+        "precioDescuento": 134910,
+        "descuento": "10"
+      },
       "id": "eedd1916-4e21-41ff-bf82-6bdd53890a29"
+    },
+    {
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_924956-MLA27687539147_072018-O.webp",
+      "categoria": "accesorios",
+      "precio": 202169,
+      "promo": true,
+      "titulo": "Termotanque Solar Cambell 200 Lts 100% Acero Inox. 10 Años",
+      "descripcion": "Termotanque Solar Cambell 200 Lts TH200 + Resistencia  Características:  • Capacidad: 200 Litros (4 Personas) • Garantía: 10 Años • Apto para combinar con instalaciones existentes • Tanque Interno: Acero Inoxidable 304, apto para consumo. • Tanque Externo: Acero Inoxidable 304. • Dimensiones: Aprox. 460 x 1800 mm. • Espesor de la capa aislante Poliuretánica: 50-55 mm. • Espesor del tanque Acero Inoxidable: 0.4mm. • Bastidor de Montaje: Aleación de aluminio, espesor 1.4mm. • Tubos de Vacío: Dimensiones 58x1800mm. • Preservación de calor: Aprox. 72hrs. • Resistencia al Granizo: Aprox. hasta 25mm. • Calentador eléctrico Permite mantener el agua caliente aún durante períodos de falta de sol. Tensión de trabajo: 220V - Potencia: 1,5KW - Seteable de 0 - 80° C. • Barra de Magnesio: Evita la corrosión del termotanque, prologando su vida útil. Se recomienda cambiarla cada año. • Incluye Controlador Electronico + Electrovalvula.   Controlador electrico: - Tolerancia para detectar temperatura: +/- 2 °C - Rango de detección de temperatura: 0 - 99 °C - Niveles de agua: 4 niveles",
+      "descuento": {
+        "precioDescuento": 181952.1,
+        "descuento": "10"
+      },
+      "id": "6d97f788-d9f4-4e13-b117-3f2642dccc1c"
     }
   ]
 }

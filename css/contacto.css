@@ -28,17 +28,32 @@
     font-weight: 700;
     padding-bottom: 1rem;
 }
-
 .contacto__detalle {
+    font-weight: bold;
+}
+
+.contacto__detalle, .contacto__mail, .contacto__whatsapp {
+    display: flex;
     max-width: 600px;
     padding: 10px 0;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid gray;
 }
+
+.contacto__mail-titulo, .contacto__whatsapp-titulo {
+    font-size: 20px;
+    padding: 2px;
+    font-weight: bold;
+}
+
 
 .contacto__formulario-container {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-top: 10px;
     width: 50vw;
 }
 

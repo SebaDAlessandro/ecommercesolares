@@ -37,6 +37,7 @@
 
 .nav__producto-encontrado:hover {
     background: #f3f3f3;
+    border-radius: 10px;
 }
 
 .nav__producto-titulo {
@@ -45,6 +46,7 @@
     display: block;
     font-weight: bold;
     margin-left: 5px;
+    display: flex;
 }
 
 @media screen and (min-width: 768px) {

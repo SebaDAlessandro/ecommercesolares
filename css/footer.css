@@ -12,6 +12,20 @@
     font-size: 0.8rem;
     font-weight: 700;
     flex-direction: column;
-    padding-bottom: 1.5rem;
+    padding-bottom: 5px;
     padding-top: 1.5rem;
+}
+
+.footer__linkedin, .footer__github {
+    width: 30px;
+}
+
+.footer__linkedin:hover{
+    background: rgb(0, 255, 255);
+    border-radius: 3px;
+}
+
+.footer__github:hover {
+    background: rgb(0, 255, 255);
+    border-radius: 6px;
 }

@@ -30,7 +30,6 @@
     <header class="header container">
         <div class="nav">
             <img src="./img/log-roque.png" alt="logo e-commerce" class="nav__log">
-            <input type="text" class="nav__interaccion-busqueda" placeholder="Serch">
             <a class="nav__interaccion-home" href="./index.html"><span class="material-symbols-outlined">home</span></a>
         </div>
     </header>
@@ -90,18 +89,25 @@
                     <span class="input-mensage-error"></span>
                 </div>
 
-                <div class="nuevoProducto__input-selectores">
-                    <select name="categoria" id="categoriaInput" required>
-                        <option value="paneles" selected>Paneles</option>
-                        <option value="lamparas">Lamparas</option>
-                        <option value="molinos">Molinos</option>
-                        <option value="accesorios">Accesorios y otros</option>
-                    </select>
-    
-                    <select name="promo" id="promoInput" required>
-                        <option value=true>En promo</option>
-                        <option value=false selected>Sin promo</option>
-                    </select>
+                <div class="nuevoProducto__selectores">
+                    <div class="nuevoProducto__input-categoria">
+                        <p class="categoria">Seleccione la categoría</p>
+                        <select name="categoria" id="categoriaInput" required>
+                            <option value="paneles" selected>Paneles</option>
+                            <option value="lamparas">Lamparas</option>
+                            <option value="molinos">Molinos</option>
+                            <option value="accesorios">Accesorios y otros</option>
+                        </select>
+                    </div>
+                    <div class="nuevoProducto__input-promocion">
+                        <p class="promo">Producto en promoción?</p>
+                        <select name="promo" id="promoInput" required>
+                            <option value=true>En promo</option>
+                            <option value=false selected>Sin promo</option>
+                        </select>
+                    </div>
+        
+                    
                 </div>
 
                 <buton class="nuevoProducto__buton boton" id="agregarProducto">Agregar</buton>
@@ -113,6 +119,10 @@
     <footer class="footer">
 
         <p class="footer__titulo">Desarrollado por Sebastián D'Alessandro - 2022</p>
+        <div class="footer__links">
+            <a href="#"><img src="./img/linkedin-icon.png" alt="linkedin icon" class="footer__linkedin"></a>
+            <a href="#"><img src="./img/github-icon.png" alt="github icon" class="footer__github"></a>
+        </div>
 
     </footer>
 

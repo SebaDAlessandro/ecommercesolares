@@ -6,6 +6,8 @@ const searchInput = document.querySelector('#searchInput')
 const boxSearch = document.querySelector('#boxSearch')
 const main = document.querySelector('#main')
 
+var cargado = false
+
 function cargarProductos(){
     productoServices.listaProductos().then(respuesta =>{
     
@@ -20,14 +22,15 @@ function cargarProductos(){
             li.classList.add('nav__producto-encontrado')
             li.innerHTML = liTag
             boxSearch.appendChild(li)
+            cargado = true
         }
     })
 }
 
-
-iconSearch.addEventListener('click',(e)=>{
-    e.preventDefault()
-    cargarProductos()
+iconSearch.addEventListener('click',()=>{
+    if(!cargado){
+        cargarProductos()
+    }
     mostarBuscador()
 })
 
