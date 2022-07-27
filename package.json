@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SebaDAlessandro/e-commerce-lamp.git"
+    "url": "git+https://github.com/SebaDAlessandro/e-commerce.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SebaDAlessandro/e-commerce-lamp/issues"
+    "url": "https://github.com/SebaDAlessandro/e-commerce/issues"
   },
-  "homepage": "https://github.com/SebaDAlessandro/e-commerce-lamp#readme",
+  "homepage": "https://github.com/SebaDAlessandro/e-commerce#readme",
   "dependencies": {
     "json-server": "^0.17.0"
   }
