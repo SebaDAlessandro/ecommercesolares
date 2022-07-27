@@ -26,9 +26,7 @@ for (let i = 0; i < productosArray.length; i++) {
         `<div class="producto__detalle-min" id="tarjeta">
         <img src="${productosArray[i].imagen}" alt="img del producto" class="prdoucto__img">
         <p class="promoProducto__titulo">${productosArray[i].titulo}</p>
-        <p class="promoProducto__titulo">Antes</p>
         <p class="promoProducto__precio">${precioAnterior}</p>
-        <p class="promoProducto__titulo">Ahora</p>
         <p class="promoProducto__precioDescuento">${precioDescuento}</p>
         <p class="prmoProducto__descuento">${productosArray[i].descuento}% de descuento!</p>
         <a href="../detalleProducto.html?id=${productosArray[i].id}" class="producto__link">Ver producto</a>

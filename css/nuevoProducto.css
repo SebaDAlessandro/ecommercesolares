@@ -34,9 +34,9 @@
 }
 
 .nuevoProducto__input-categoria, .nuevoProducto__input-promocion {
+    align-items: center;
     display: flex;
     margin-top: 5px;
-    align-items: center;
     padding: 3px;
 }
 
@@ -67,16 +67,21 @@
 
 
 @media screen and (min-width: 768px){
+    
     .nuevoProducto__container {
         width: 50%;
     }
+
 }
 
 @media screen and (min-width: 1024px){
+
     .nuevoProducto__container {
         width: 80%;
     }
+
     .nuevoProducto__input {
         margin: 0.3rem;
     }
+
 }

@@ -1,14 +1,16 @@
-.header {
-    background: var(--background-mobile-azul);
-}
-
 .nav {
     align-items: center;
+    background: var(--background-mobile-azul);
     display: flex;
     flex-direction: row;
     height: 20px;
+    justify-content: center;
+    margin: 0 0 10px 0;
+    padding: 5px 10px;
+}
+
+.inicio {
     justify-content: space-between;
-    margin: 10px 0;
 }
 
 .search-container{
@@ -28,9 +30,9 @@
 }
 
 .nav__interaccion-home:hover{
+    background: white;
     border-radius: 50%;
     color: var(--background-mobile-azul);
-    background: white;
 }
 
 .header__log-ingreso {
@@ -60,11 +62,13 @@
 
     .nav {
         height: 55px;
+        justify-content: space-between;
     }
 
     .nav__log {
-        display: flex;
         border-radius: 15px;
+        display: flex;
         width: 90px;
     }
+
 }

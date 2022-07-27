@@ -52,10 +52,9 @@
 }
 
 .producto__detalle-min-opciones-edit:hover, .producto__detalle-min-opciones-delet:hover{
-    border-radius: 50%;
     background: rgba(0, 0, 255, 0.253);
+    border-radius: 50%;
 }
-
 
 .prdoucto__img {
     border-radius: 5px;
@@ -72,6 +71,10 @@
 .producto__precio {
     font-weight: 700;
     padding-bottom: 0.5rem;
+}
+
+.producto__titulo-descuento {
+    font-size: 12px;
 }
 
 .producto__link {

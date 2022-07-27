@@ -3,10 +3,7 @@
     flex-direction: row;
     justify-content: center;
     margin: 10rem 0;
-
-/* quitar esta propiedad para ver el selector promociones */
-/*     display: none;
- */}
+}
 
 .login__container {
     align-items: center;

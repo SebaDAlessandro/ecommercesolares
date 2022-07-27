@@ -10,223 +10,251 @@
     {
       "imagen": "./img/Paneles/Kit Energia Solar Multiuso Para Motorhome Camping Pesca 20w.webp",
       "categoria": "paneles",
-      "precio": 300,
+      "precio": 42050,
       "promo": false,
       "titulo": "Kit Energia Solar Multiuso Para Motorhome Camping Pesca 20w",
-      "descripcion": "Lampara solar",
+      "descripcion": "COMBO PANEL SOLAR 20 WATT + REGULADOR 10 AMPER + BATERIA 7 AMPER + INVERSOR 150 WATT  El mismo incluye:  Panel Solar 20W: Encargado de transformar la energía del sol en electricidad.  Regulador de carga 10 A con Lcd: El regulador posee las borneras necesarias para su fácil conexión y además una pantalla de lcd que permite revisar el estado del sistema, verificando los voltajes, nivel de batería y distintos set-ups del equipo, por ejemplo, setear el tipo de batería a utilizar.  Batería: Lugar de almacenaje de la energía entregada por el panel. Inversor de carga: Transforma la energía guardada en la batería en energía de 220v utilizable.  ESPECIFICACIONES:  PANEL SOLAR 20 WATT - Dimensiones: 47,8 cm x 34,9 cm x 1,7 cm (Puede variar) - Potencia 20W - Amperaje de salida: 1,15Amp.  REGULADOR DE CARGA 10 A - Dimensiones 13,3 Cm x 7 Cm x 3,5 Cm - Voltaje de sistema: 12/24 V - Temperatura de trabajo: -20° - 55° - Protección: Corte por sobrecarga de batería. - Salida USB de 5 Volts 1 Amper para cargar celulares/gps/tablets. - Salida JACK 12 volts X 2  BATERÍA - Voltaje: 12V - Amperaje: 7A Medidas: 15cm(profundo) x 6,5cm (ancho) x 9,5cm (alto)  INVERSOR DE CARGA 150W - Dimensiones: 16,5cm x 9cm x 5,8cm - Potencia 150W - Potencia Pico: 450W - Corte por batería baja/alta - Protección contra cortocircuito - Consumo en reposo: < 0.3A - Peso: 0.85Kg",
       "descuento": {},
       "id": 1
     },
     {
       "imagen": "./img/Paneles/Kit Solar Completo Autoinstalable Energia Panel Bateria K1.webp",
       "categoria": "paneles",
-      "precio": 400000,
+      "precio": 77199,
       "promo": false,
       "titulo": "Kit Solar Completo Autoinstalable Energia Panel Bateria K1",
-      "descripcion": "Precio sugerido de compra",
+      "descripcion": "- EL KIT SOLAR INCLUYE -  •1 Panel de 80W policristalino (Vida útil 30 años). Medidas en milímetros (820x670).  • 1 Regulador de carga 10 A (Inteligente con pantalla y USB).  • 1 Batería Solar de 45Ah.  • 1 Inversor de 12V a 220V - 300W Onda Modificada (con USB).  • Todos los cables y bornes para su conexión.  • Soporte de aluminio para el panel adaptable a cualquier superficie.",
       "descuento": {},
       "id": 2
     },
     {
       "imagen": "./img/Paneles/Kit Panel Solar Completo Autoinstalable De 600w Con Usb K2.webp",
       "categoria": "paneles",
-      "precio": 500,
-      "promo": false,
+      "precio": 97999,
+      "promo": true,
       "titulo": "Kit Panel Solar Completo Autoinstalable De 600w Con Usb K2",
-      "descripcion": "undefined",
-      "descuento": {},
+      "descripcion": "- EL KIT SOLAR INCLUYE -  • 1 Panel de 100W policristalino (Vida útil 30 años). Medidas en milímetros (1015 x 670).  • 1 Regulador de carga 10 A (Inteligente con pantalla y USB).  • 1 Batería Solar de 45Ah.  • 1 Inversor de 12V a 220V - 600W Onda Modificada (con USB).  • Todos los cables y bornes para su conexión.  • Soporte de aluminio para el panel adaptable a cualquier superficie.",
+      "descuento": {
+        "precioDescuento": 83299.15,
+        "descuento": "15"
+      },
       "id": 3
     },
     {
       "imagen": "./img/Paneles/Kit Panel Solar Completo 1000w Autoinstalable Motorhome K3.webp",
       "categoria": "paneles",
-      "precio": 600,
+      "precio": 124000,
       "promo": false,
       "titulo": "Kit Panel Solar Completo 1000w Autoinstalable Motorhome K3",
-      "descripcion": "undefined",
+      "descripcion": "- EL KIT SOLAR INCLUYE -  • 1 Panel de 100W policristalino (Vida útil 30 años). Medidas en milímetros (1015 x 670).  • 1 Regulador de carga 10 A (Inteligente con pantalla y USB).  • 1 Batería Solar de 65Ah.  • 1 Inversor de 12V a 220V - 1000W Onda Modificada (con USB).  • Todos los cables y bornes para su conexión.  • Soporte de aluminio para el panel adaptable a cualquier superficie.",
       "descuento": {},
       "id": 4
     },
     {
       "imagen": "./img/Paneles/Kit Panel Solar Completo Autoinstalable 1000w Energia Usb K4.webp",
       "categoria": "paneles",
-      "precio": 700,
+      "precio": 162800,
       "promo": false,
       "titulo": "Kit Panel Solar Completo Autoinstalable 1000w Energia Usb K4",
-      "descripcion": "undefined",
+      "descripcion": "- EL KIT SOLAR INCLUYE -  • 1 Panel de 160W policristalino (Vida útil 30 años). Medidas en milímetros (1478 x 668).  • 1 Regulador de carga 20 A (Inteligente con pantalla y USB).  • 1 Batería Solar de 110Ah.  • 1 Inversor de 12V a 220V - 1000W Onda Modificada (con USB).  • Todos los cables y bornes para su conexión.  • Soporte de aluminio para el panel adaptable a cualquier superficie.",
       "descuento": {},
       "id": 5
     },
     {
       "imagen": "./img/Paneles/Panel Solar 20w Watts + Regulador De Carga 10 Amp.webp",
       "categoria": "paneles",
-      "precio": 800,
+      "precio": 21643,
       "promo": false,
       "titulo": "Panel Solar 20w Watts + Regulador De Carga 10 Amp",
-      "descripcion": "undefined",
+      "descripcion": "Panel Solar 12 V 20 Watts - Regulador de Carga 12 V 10 Amper - Batería de Gel 12 V 7 Amper  Kit solar completo, para iluminación interior a energía solar, para aquellos lugares donde no llega la red eléctrica.  El mismo incluye:  Panel Solar 20W: Encargado de transformar la energía del sol en electricidad.  Regulador de carga 10 A con Lcd: El regulador posee las borneras necesarias para su fácil conexión y además una pantalla de lcd que permite revisar el estado del sistema, verificando los voltajes, nivel de batería y distintos set-ups del equipo, por ejemplo, setear el tipo de batería a utilizar.  Batería: Lugar de almacenaje de la energía entregada por el panel.",
       "descuento": {},
       "id": 6
     },
     {
       "imagen": "./img/lamparas/Kit X 2 Luces Para Bicicleta Led Pilas Incluidas Roja+blanca.webp",
       "categoria": "lamparas",
-      "precio": 3,
+      "precio": 399,
       "promo": false,
       "titulo": "Kit X 2 Luces Para Bicicleta Led Pilas Incluidas Roja+blanca",
-      "descripcion": "undefined",
+      "descripcion": "Kit x 2 luces para bicicleta con luces incluidas Roja + Blanca SKU: HGABL01  Detalle de funcionamiento: • Tres modos de funcionamiento • Luz fija y dos modos de intermitencia • Colores incluidas en el pack: Rojo y Blanco • INCLUYE DOS PILAS CR-2032",
       "descuento": {},
       "id": 10
     },
     {
       "imagen": "./img/lamparas/Lampara Solar 100 Led Reflector Solar Sensor Luz Exterior.webp",
       "categoria": "lamparas",
-      "precio": "4",
+      "precio": 2499,
       "promo": false,
       "titulo": "Lampara Solar 100 Led Reflector Solar Sensor Luz Exterior",
+      "descripcion": "REFLECTOR LED SOLAR 3 en 1  Tiene 3 funciones: 1. Luz a máxima potencia con sensor de movimiento 2. Luz fija al 50% de potencia y cuando detecta movimiento se enciende a máxima potencia por unos segundos 3. Luz fija al 50% de potencia  -Uso Exterior -Diseño moderno para aplicar sobre la pared - Fácil instalación, se cuelga y listo! No necesita cables ni corriente  -Ideal para colocar en zonas donde no hay corriente y mantener iluminado todo el parque. Tambien se usa en entradas de garage, casas, etc.",
+      "descuento": {},
       "id": 12
     },
     {
       "imagen": "./img/lamparas/Lámpara Solar Colgante Recargable 5 Funciones..webp",
       "categoria": "lamparas",
-      "precio": "5",
+      "precio": 2600,
       "promo": false,
       "titulo": "Lámpara Solar Colgante Recargable 5 Funciones.",
+      "descripcion": "Tiene encendido/apagado y un interruptor de modo.  Energía Solar, sin costes de energía adicionales.  La podes colgar/apoyar en paredes, ventanas, puertas, pisos, césped, hasta lograr el ambiente perfecto.  Ideal para iluminación decorativa en jardines, árboles, jardines, terrazas, puertas, patios, etc.  Con sensor de luz-La cadena de luz transparente es sensible al sol. Se cambia automáticamente al aislamiento y se apaga durante el día.",
+      "descuento": {},
       "id": 13
     },
     {
       "imagen": "./img/lamparas/Luz Solar Led Para Jardin Con Estaca Luz Fria Para Exterior.webp",
       "categoria": "lamparas",
-      "precio": "6",
+      "precio": 749,
       "promo": false,
       "titulo": "Luz Solar Led Para Jardin Con Estaca Luz Fria Para Exterior",
+      "descripcion": "Estaca solar LED Battery: 1.2V 600mah solar panel: 2v 100MA Material: ABS + acero inoxidable + Acrilico Uso decorativo Color luz: FRIA Nivel impermeabilidad: IP44 Tiempo de carga - descarga: 6 a 8hs - 7 a 10 hs Medidas: 7,5 cm × 7,5 cm × 34 cm Panel solar: 30 mm × 30 mm",
+      "descuento": {},
       "id": 14
     },
     {
       "imagen": "./img/lamparas/Pack X 2 Lampara Solar Led Luz Con Sensor Exterior 20 Led.webp",
       "categoria": "lamparas",
-      "precio": "7",
+      "precio": 1399,
       "promo": false,
       "titulo": "Pack X 2 Lampara Solar Led Luz Con Sensor Exterior 20 Led",
+      "descripcion": "- Potencia: 4W - Con Panel Solar Incorporado - Ideal para usar en Exteriores de Viviendas como Accesos y Cocheras - Para seguridad de la entrada de la Vivienda - Interruptor de Encendido y Apagado (aprueba de agua) - Bater¿a interna Recargable - Sensor de Movimiento con alcance de hasta 3 metros y con un ¿ngulo de detecci¿n de 120¿ - Luego de detectar movimiento permanecer¿ encendido por un tiempo aprox 10 segundos - Tiempo de Craga Solar: 8 Horas - Vida Util: 5000 horas - IP65 a prueba de Agua - Medidas aprox: 102mm x 53mm x 130mm",
+      "descuento": {},
       "id": 15
     },
     {
       "imagen": "./img/lamparas/Panel Reflector Solar 32 Led Sensor Movimiento Ip66.webp",
       "categoria": "lamparas",
-      "precio": "8",
+      "precio": 1799,
       "promo": false,
       "titulo": "Panel Reflector Solar 32 Led Sensor Movimiento Ip66",
+      "descripcion": "- Panel solar: 0,55w 17% de eficiencia. - Material: ABS - Tiempo de carga solar: 8 Horas - 32 LEDS - Luz Blanca - Batería de li-ion: 3,7V 1200MAH - Sensor: Sensor de Movimiento - Tamaño: 160 x 100 x 50 mm - Sensor de Movimiento. Enciende por movimiento solamente",
+      "descuento": {},
       "id": 16
     },
     {
       "imagen": "./img/molinos/Aerogenerador Aerocargador Turbina Eólica 400w 12v Regulador.webp",
       "categoria": "molinos",
-      "precio": "30",
+      "precio": 106000,
       "promo": false,
       "titulo": "Aerogenerador Aerocargador Turbina Eólica 400w 12v Regulador",
+      "descripcion": "AEROGENERADOR 12V 400W MARCA SOLARLINE - SOLARYEOLICA MODELO S2-400 5 BLADE Comienza a Girar: 2m/seg. = 7.2 Km/hora Producción ideal a 13m/seg. = 46.8 Km/hora Máximo viento soportado: 45m/seg. = 162 Km/hora Diámetro de palas: 1.3 metros Cantidad de Palas: 5 Salida tipo trifásica ac, lo que le permitirá instalar más lejos el AEROGENERADOR si lo necesita y rectificar sobre el banco de baterías. Método de Frenado: Electromagnetismo Entorno: -40°C a 80°C INCLUYE MANUAL DE ARMADO/INSTALACION INCLUYE REGULADORA DE CARGA EXTERNA IP67  COLOR DISPONIBLE BEIGE/BLANCO - FABRICACION 2021",
+      "descuento": {},
       "id": 21
     },
     {
       "imagen": "./img/molinos/Aerogenerador Generador Eolico 175w.webp",
       "categoria": "molinos",
-      "precio": 40,
+      "precio": 353053,
       "promo": true,
       "titulo": "Aerogenerador Generador Eolico 175w",
-      "descripcion": "undefined",
+      "descripcion": "¿Que incluye el kit?  -Equipo Eolico ST 150 -Modulo regulador-cargador (Puede elegir la opción de salida en 12/24/48 V, segun el proyecto)",
       "descuento": {
-        "precioDescuento": 32,
-        "descuento": "20"
+        "precioDescuento": 317747.7,
+        "descuento": "10"
       },
       "id": 22
     },
     {
       "imagen": "./img/molinos/Aerogenerador Generador Eolico Molino Viento Pack 10 Unid.webp",
       "categoria": "molinos",
-      "precio": "50",
+      "precio": 426864,
       "promo": false,
       "titulo": "Aerogenerador Generador Eolico Molino Viento Pack 10 Unid",
+      "descripcion": "Son producidos íntegramente por FIASA®, bajo estrictas normas de calidad; tanto en lo que respecta a la fundición del hierro gris y nodular, como en los procesos de mecanizado; en los cuales se utilizan las más modernas máquinas de control numérico, centros de mecanizado asi como lo que respecta al tallado de engranajes. Los procesos de galvanizado por inmersión, otorgan a las piezas la protección necesaria para una operación efectiva por largos años de vida operando a la intemperie.",
+      "descuento": {},
       "id": 23
     },
     {
       "imagen": "./img/molinos/Molino De Viento Ascheri Maquina Rueda Y Cola 8 Pies Cuotas.webp",
       "categoria": "molinos",
-      "precio": "60",
+      "precio": 160700,
       "promo": false,
       "titulo": "Molino De Viento Ascheri Maquina Rueda Y Cola 8 Pies Cuotas",
+      "descripcion": "- Energía gratuita: No consume recursos energéticos; y no genera polución. - Duraderos: Construcción fuerte, galvanizada y de diseño eficiente para hacer frente a las contingencias climáticas; y asegurar larga duración de bombeo. - Mantenimiento insignificante: Requiere poca atención más allá de un cambio de aceite y una verificación para asegurar una operatividad irrestricta del Molino y sus accesorios. - Capacidades amplias: Ruedas de 6' a 16' de diámetro, brindan abundante fuerza aún en bombeo que exceda una profundidad de 1000 pies.",
+      "descuento": {},
       "id": 24
     },
     {
       "imagen": "./img/molinos/Molino De Viento Ascheri Maquina Rueda Y Cola De 8 Pies.webp",
       "categoria": "molinos",
-      "precio": "70",
+      "precio": 185073,
       "promo": false,
       "titulo": "Molino De Viento Ascheri Maquina Rueda Y Cola De 8 Pies",
+      "descripcion": "VENTAJAS:  - Bombeo SERENO y LIVIANO - Orientación a BAJAS VELOCIDADES de viento. - BAJO COSTO de mantenimiento. - ROBUSTEZ, lo que asegura que su funcionamiento perdure en el tiempo. - ENSAMBLE y centrado rápido y perfecto. - AMPLIO rango de bombeo.",
+      "descuento": {},
       "id": 25
     },
     {
       "imagen": "./img/molinos/Molino De Viento Brisa Ii De 8´ Incluye Torre Adaptadora.webp",
       "categoria": "molinos",
-      "precio": "80",
+      "precio": 260000,
       "promo": false,
       "titulo": "Molino De Viento Brisa Ii De 8´ Incluye Torre Adaptadora",
+      "descripcion": "- Energía gratuita: No consume recursos energéticos; y no genera polución. - Duraderos: Construcción fuerte, galvanizada y de diseño eficiente para hacer frente a las contingencias climáticas; y asegurar larga duración de bombeo. - Mantenimiento insignificante: Requiere poca atención más allá de un cambio de aceite y una verificación para asegurar una operatividad irrestricta del Molino y sus accesorios. - Capacidades amplias: Ruedas de 6' a 16' de diámetro, brindan abundante fuerza aún en bombeo que exceda una profundidad de 1000 pies.",
+      "descuento": {},
       "id": 26
     },
     {
       "imagen": "./img/accesorios/Batería Solar Eólica De Ciclo Profundo 12 Volts 220 Ah Cuota.webp",
       "categoria": "accesorios",
-      "precio": "3000",
+      "precio": 22705,
       "promo": false,
       "titulo": "Batería Solar Eólica De Ciclo Profundo 12 Volts 220 Ah Cuota",
+      "descripcion": "Son los elementos encargados de almacenar la energía eléctrica generada para luego entregarla al consumo cuando este lo requiera. Existen diferentes clases de baterías de acuerdo a los materiales activos de sus placas, su electrolito, su construcción física, su capacidad, si son aptas para trabajar en ciclos profundos de carga y descarga, etc La batería de ciclo profundo (deep cycle) es aquella que ha sido especialmente diseñada para operar en ciclado de profundidad superior a 50%. No se debe utilizar una batería de propósitos generales cuando los ciclos son profundos (por ejemplo, en un panel fotovoltaico). Las baterías de ciclo profundo poseen placas reforzadas para evitar su agotamiento prematuro y poder soportar mejor la exigencia del ciclado. RENDIMIENTO DE LAS BATERÍAS SOLARES VZH",
+      "descuento": {},
       "id": 31
     },
     {
       "imagen": "./img/accesorios/Farol Estaca Solar De 8 Leds Jardín Exterior Suelo Panel Luz.webp",
       "categoria": "lamparas",
-      "precio": "4.000",
+      "precio": 1820,
       "promo": false,
       "titulo": "Farol Estaca Solar De 8 Leds Jardín Exterior Suelo Panel Luz",
-      "descripcion": "Lamparas pequeñas",
+      "descripcion": "Especificaciones: - Origen: China. - Color: Plateado. - Medidas: 12,5 X 11,5 cm. - Material: Acero inoxidable y ABS. - Voltaje: 1,2V. - Lúmenes: 100 lm. - Vida útil: 50000 hs. - LED: 8 LED. - Eficacia Luminosa: 25 lm/W a 90°. - Se enciende solo con la luz nocturna y tiene botón de ON/OFF. - Función: Iluminar tu jardín desde el suelo y darle ese toque estético que le hace falta. - Incluye: 1 Estaca solar. - Producto 100% IMPORTADO!!",
+      "descuento": {},
       "id": 32
     },
     {
       "imagen": "./img/accesorios/Kit Accesorios Batería Solar Growatt Hope 4.8l-c1.webp",
       "categoria": "accesorios",
-      "precio": "6000",
+      "precio": 20836,
       "promo": false,
       "titulo": "Kit Accesorios Batería Solar Growatt Hope 4.8l-c1",
+      "descripcion": " Kit de accesorios para batería Growatt Hope que incluye: brackets, tornillos, cables de potencia y cables de comunicación (ver detalle en manual)  Consultar disponibilidad antes de la compra.",
+      "descuento": {},
       "id": 34
     },
     {
       "imagen": "./img/accesorios/Manta Solar P Climatizar Agua Accesorio Pileta Intex Cuotas.webp",
       "categoria": "accesorios",
-      "precio": 5300000,
+      "precio": 46400,
       "promo": false,
       "titulo": "Climatizador para Piletas",
-      "descripcion": "Manta Solar P Climatizar Agua Accesorio Pileta Intex Cuotas",
+      "descripcion": "- Kit H8 contiene: - 2 colectores espiral solar - 1 controlador digital de temperatura - 1 sensor de temperatura - Esquema digital de instalación (sin cargo) - Guía y apoyo telefónico durante la instalación por el cliente (sin cargo)",
       "descuento": {},
       "id": 35
     },
     {
       "imagen": "./img/accesorios/Mini Reflector Led Con Panel Solar Sensor De Movimiento D03.webp",
       "categoria": "lamparas",
-      "precio": 8000,
+      "precio": 3760,
       "promo": true,
-      "titulo": "Lampara con sensor de movimiento",
-      "descripcion": "Mini Reflector Led Con Panel Solar Sensor De Movimiento D03",
+      "titulo": "Mini Reflector Led Con Panel Solar Sensor De Movimiento D03",
+      "descripcion": "MINI REFLECTOR LED CON PANEL SOLAR KQ-D03  - Sensor De Movimiento + Control Remoto Infrarrojo - 3 funciones: control de luz / inducción del cuerpo humano / control remoto - El panel solar policristalino convierte la energía solar en electricidad. - La tecnología de detección lo hace más eficiente en energía, se enciende cuando se detecta movimiento, se atenúa cuando no se detecta movimiento. - Los paneles solares convierten la energía solar en electricidad. - Fácil instalación, operación confiable sin mantenimiento sin necesidad de cableado. - Encienda el interruptor antes de la instalación o la carga.",
       "descuento": {
-        "precioDescuento": 6400,
-        "descuento": "20"
+        "precioDescuento": 3196,
+        "descuento": "15"
       },
       "id": 36
     },
     {
       "imagen": "https://http2.mlstatic.com/D_NQ_NP_860615-MLA49385132484_032022-O.webp",
       "categoria": "accesorios",
-      "precio": 149900,
+      "precio": 212890,
       "promo": true,
       "titulo": "Termotanque Solar 200 Lts Acero Kit Eléctrico + Controlador",
       "descripcion": "Termotanque Solar termosifónico construido íntegro en acero inoxidable, Capacidad de ahorro 60 % en invierno al 100 % el resto del año. Inversión recuperable en 2/3 años, con más de 15 años de vida útil para disfrutar de agua caliente sanitaria a muy bajo costo",
       "descuento": {
-        "precioDescuento": 134910,
+        "precioDescuento": 191601,
         "descuento": "10"
       },
       "id": "eedd1916-4e21-41ff-bf82-6bdd53890a29"

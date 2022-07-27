@@ -1,10 +1,7 @@
 .productos {
     display: flex;
     flex-direction: column;
-
-/* quitar esta propiedad para ver el selector promociones */
-/*     display: none;
- */ }
+}
 
 .container {
     padding: 1px;
@@ -94,7 +91,6 @@
     .productos__seleccion {
         flex-direction: row; 
     }
-
 
     .container {
         padding-left: calc((100% - 940px)/2);

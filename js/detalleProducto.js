@@ -14,11 +14,9 @@ productoServices.detalleProducto(id).then(data =>{
         </div>
         <div class="detalleProducto__descripcion">
         <p class="detalleProducto__titulo">${data.titulo}</p>
-        <p class="detalleProducto__titulo">Antes</p>
-        <p class="detalleProducto__precio">${precio}</p>
-        <p class="detalleProducto__titulo">Ahora</p>
+        <p class="detalleProducto__precio anterior">${precio}</p>
         <p class="detalleProducto__precio">${precioDescuento}</p>
-        <p class="detalleProducto__titulo">${data.descuento.descuento}% de descuento!</p>
+        <p class="detalleProducto__titulo-descuento">${data.descuento.descuento}% de descuento!</p>
         <p class="detalleProducto__texto">${data.descripcion}</p>
         </div>`
     }else{
@@ -47,9 +45,10 @@ function cargarProductosCategoria(categoria){
     productoServices.listaProductos().then(respuesta =>{
         for (let i = 0; i < respuesta.length; i++) {
             if(respuesta[i].categoria === categoria && !respuesta[i].promo){
+                const precio = formateandoPrecio(respuesta[i].precio)
                 const divSimilar =`<img src="${respuesta[i].imagen}" alt="img del producto" class="prdoucto__img">
                 <p class="producto__titulo">${respuesta[i].titulo}</p>
-                <p class="producto__precio">$${respuesta[i].precio}</p>
+                <p class="producto__precio">${precio}</p>
                 <a href="../detalleProducto.html?id=${respuesta[i].id}" class="producto__link">Ver producto</a>`
 
                 const tarjetaSimilar = document.createElement('div')
