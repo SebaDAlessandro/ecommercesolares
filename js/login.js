@@ -29,8 +29,8 @@ botonIngreso.addEventListener('click', ()=>{
 function comporobarUsuario(usuario, contrasenia){
 
     const propietario = {
-        name: 'seba@seba',
-        password: 'Abril2013'
+        name: 'seba@seba.com',
+        password: 'Seba1234'
     }
     if (propietario.name === usuario && propietario.password === contrasenia){
         window.location.href = '../allProductos.html'
