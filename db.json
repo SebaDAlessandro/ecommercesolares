@@ -271,6 +271,16 @@
         "descuento": "10"
       },
       "id": "6d97f788-d9f4-4e13-b117-3f2642dccc1c"
+    },
+    {
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_877044-MLA45260481043_032021-O.webp",
+      "categoria": "accesorios",
+      "precio": 22999,
+      "promo": false,
+      "titulo": "Kit Panel Solar Parlante Cargador Usb Lampara Linterna Fm",
+      "descripcion": "Kit de generador de panel de energía solar, radio bluetooth + bombilla de 3 LED para iluminación de emergencia al aire libre en el hogar conjunto completo que incluye 1 host, 1 panel solar policristalino de 9 V y 3 W, 3 bombillas LED de iluminación, 1 cargador de CA, 1 cable de carga 4 en 1. El host estaba integrado en una batería de plomo-ácido de 6V 4A. Hay una luz de antorcha en el lateral, una luz LED en la parte delantera. Cuando lo necesite, también hay bombillas LED de 3 piezas para uso doméstico o al aire libre dentro del campamento. Esta unidad se puede cargar desde un panel solar o un cargador.",
+      "descuento": {},
+      "id": "7ed5146b-6430-44b7-879e-1890ac74d269"
     }
   ]
 }
