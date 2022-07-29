@@ -1,5 +1,5 @@
 {
-  "name": "ChallengeEcommerce",
+  "name": "ecommercesolares",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SebaDAlessandro/e-commerce.git"
+    "url": "git+https://github.com/SebaDAlessandro/ecommercesolares.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SebaDAlessandro/e-commerce/issues"
+    "url": "https://github.com/SebaDAlessandro/ecommercesolares/issues"
   },
-  "homepage": "https://github.com/SebaDAlessandro/e-commerce#readme",
+  "homepage": "https://github.com/SebaDAlessandro/ecommercesolares#readme",
   "dependencies": {
     "json-server": "^0.17.0"
   }
