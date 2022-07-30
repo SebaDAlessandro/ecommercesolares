@@ -16,7 +16,7 @@ btnAgregarProducto.addEventListener('click', ()=>{
         swal("Oops!", "Complete todos los datos para continuar", "error");
     }else{
         productoServices.crearProducto(newProducto.urlImagent, newProducto.categoria, precio, promo, newProducto.nombreProducto,  newProducto.descripcion, promoObjeto).then((respuesta) =>{
-                window.location.href = '../registroCompleto.html'
+                window.location.href = 'registroCompleto.html'
         }).catch(err=> console.log(err))            
     }
 })
@@ -40,7 +40,7 @@ function tomarInputsNuevoProducto(){
 }
 
 function promoTrue(precio){
-    const descuento = prompt('Ingrese el descuento a aplicar')
+    const descuento = prompt('Ingrese el descuento a aplicar') 
     const precioDescuento = parseFloat(precio - (precio*descuento/100))
     const promoObj ={
         precioDescuento,
