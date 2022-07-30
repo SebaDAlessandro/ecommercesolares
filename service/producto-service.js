@@ -1,10 +1,10 @@
-//https://ecommersolares.herokuapp.com/
-//http://localhost:3000
+const url = 'https://ecommersolares.herokuapp.com/productos'
+const local = 'http://localhost:3000/productos'
 
-const listaProductos = ()=> fetch("https://ecommersolares.herokuapp.com/productos").then((respuesta)=> respuesta.json())
+const listaProductos = ()=> fetch(url).then((respuesta)=> respuesta.json())
 
 const crearProducto = (imagen, categoria, precio, promo, titulo, descripcion,descuento)=> {
-    return fetch(`https://ecommersolares.herokuapp.com/productos/`,{
+    return fetch(url,{
         method: 'POST',
         headers:{
             'Content-type':'application/json'//para que sepa que tipo de informacion estamos enviando
@@ -14,15 +14,15 @@ const crearProducto = (imagen, categoria, precio, promo, titulo, descripcion,des
 }
 
 const eliminarProducto = (id)=>{
-    return fetch(`https://ecommersolares.herokuapp.com/productos/${id}`,{
+    return fetch(`${url}/${id}`,{
         method: 'DELETE'
     })
 }
 
-const detalleProducto = (id)=>fetch(`https://ecommersolares.herokuapp.com/productos/${id}`).then((respuesta)=> respuesta.json())
+const detalleProducto = (id)=>fetch(`${url}/${id}`).then((respuesta)=> respuesta.json())
 
 const actualizarProducto = (imagen, categoria, precio, promo, titulo, descripcion, descuento,id)=>{
-    return fetch(`https://ecommersolares.herokuapp.com/productos/${id}`,{
+    return fetch(`${url}/${id}`,{
         method: 'PUT',
         headers:{
             'Content-type':'application/json'

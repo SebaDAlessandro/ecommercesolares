@@ -7,8 +7,6 @@ const middlewares = jsonServer.defaults()
 server.use(middlewares)
 server.use(router)
 
-//"https://ecommersolares.herokuapp.com/"
-//
 const port = process.env.PORT || 3000
 
 server.listen(port, () => {
