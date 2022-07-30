@@ -49,7 +49,7 @@ function cargarProductosCategoria(categoria){
                 const divSimilar =`<img src="${respuesta[i].imagen}" alt="img del producto" class="prdoucto__img">
                 <p class="producto__titulo">${respuesta[i].titulo}</p>
                 <p class="producto__precio">${precio}</p>
-                <a href="detalleProducto.html?id=${respuesta[i].id}" class="producto__link">Ver producto</a>`
+                <a href="ecommercesolares/detalleProducto.html?id=${respuesta[i].id}" class="producto__link">Ver producto</a>`
 /*                 <a href="../detalleProducto.html?id=${respuesta[i].id}" class="producto__link">Ver producto</a>`
  */
                 const tarjetaSimilar = document.createElement('div')
