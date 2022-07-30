@@ -28,7 +28,7 @@ export function paneles(){
         <img src="${panelesArray[i].imagen}" alt="img del producto" class="prdoucto__img">
         <p class="producto__titulo">${panelesArray[i].titulo}</p>
         <p class="producto__precio">${precio}</p>
-        <a href="../detalleProducto.html?id=${panelesArray[i].id}" class="producto__link">Ver producto</a>
+        <a href="detalleProducto.html?id=${panelesArray[i].id}" class="producto__link">Ver producto</a>
         </div>`
         
         const tarjeta = document.createElement('div')

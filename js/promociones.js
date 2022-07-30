@@ -29,14 +29,14 @@ for (let i = 0; i < productosArray.length; i++) {
         <p class="promoProducto__precio">${precioAnterior}</p>
         <p class="promoProducto__precioDescuento">${precioDescuento}</p>
         <p class="prmoProducto__descuento">${productosArray[i].descuento}% de descuento!</p>
-        <a href="../detalleProducto.html?id=${productosArray[i].id}" class="producto__link">Ver producto</a>
+        <a href="detalleProducto.html?id=${productosArray[i].id}" class="producto__link">Ver producto</a>
     </div>`
     }else{        
         var seccionDetalle =
         `<img src="${productosArray[i].imagen}" alt="img del producto" class="prdoucto__img">
         <p class="producto__titulo">${productosArray[i].titulo}</p>
         <p class="producto__precio">${precioSugerido}</p>
-        <a href="../detalleProducto.html?id=${productosArray[i].id}" class="producto__link">Ver producto</a>
+        <a href="detalleProducto.html?id=${productosArray[i].id}" class="producto__link">Ver producto</a>
     </div>`
     }
     
