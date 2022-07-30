@@ -1,5 +1,5 @@
-import { productoServices } from "../service/producto-service.js"
-import { formateandoPrecio } from "../service/formatearPesos.js"
+import { productoServices } from '../service/producto-service.js'
+import { formateandoPrecio } from '../service/formatearPesos.js'
 
 const url = new URL(window.location)
 const id = url.searchParams.get('id')
