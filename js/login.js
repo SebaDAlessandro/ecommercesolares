@@ -33,7 +33,7 @@ function comporobarUsuario(usuario, contrasenia){
         password: 'Seba1234'
     }
     if (propietario.name === usuario && propietario.password === contrasenia){
-        window.location.href = 'allProductos.html'
+        window.location.href = './ecommercesolares/allProductos.html'
     }else{
         swal("Oops!", "El usuario o la contraseña son incorrectos", "error");
     }

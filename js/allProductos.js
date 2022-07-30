@@ -46,7 +46,7 @@ function crearSeccionPromo(producto) {
     <p class="producto__precio anterior">${precio}</p>
     <p class="producto__precio">${precioDesc}</p>
     <p class="producto__titulo-descuento">${producto.descuento.descuento}% de descuento!</p>
-    <a href="../detalleProducto.html?id=${producto.id}" class="producto__link">Ver producto</a>
+    <a href="detalleProducto.html?id=${producto.id}" class="producto__link">Ver producto</a>
     </div>`
 
 return elementoDiv
