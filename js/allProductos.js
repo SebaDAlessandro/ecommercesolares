@@ -80,7 +80,7 @@ function crearSeccionBotones(tarjetaDiv){
         const id = editBoton.id
         productoServices.detalleProducto(id).then(respuesta =>{
             console.log(respuesta)
-            window.location.href = `../editarProducto.html?id=${id}`
+            window.location.href = `editarProducto.html?id=${id}`
         }).catch(err =>{
             console.log(err)
         })
@@ -91,6 +91,7 @@ function crearSeccionBotones(tarjetaDiv){
         const id = deletBoton.id
         productoServices.eliminarProducto(id).then(respuesta =>{
             console.log(respuesta)
+            location.reload()
         }).catch(err =>{
             console.log(err)
         })
