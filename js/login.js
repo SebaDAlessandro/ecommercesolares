@@ -25,19 +25,25 @@ botonIngreso.addEventListener('click', ()=>{
     const nameUsuario = document.querySelector('#usuario').value
     const contraseniaUsuario = document.querySelector('#contrasenia').value
 
-    comporobarUsuario(nameUsuario, contraseniaUsuario)
+    personaServices.listaPersonas().then(data => {
+        console.log('data: ',data[0])
+        return data[0]  
+    }).then((respuesta)=>{
+        comporobarUsuario(nameUsuario, contraseniaUsuario, respuesta)
+    }).catch(err =>{
+        console.log(err)
+    })
+
 })
 
-function comporobarUsuario(usuario, contrasenia){
-    
-    personaServices.listaPersonas().then(data => {
-        if (data[0].usuario === usuario && data[0].contraseña === contrasenia){
-            console.log('entramos!')
+function comporobarUsuario(usuario, contrasenia, perfil){
+
+        if (perfil.usuario === usuario && perfil.contraseña === contrasenia){
             window.location.href = 'allProductos.html'
         }else{
             swal("Oops!", "El usuario o la contraseña son incorrectos", "error");
         }
-    }) 
+     
 }
 
 
