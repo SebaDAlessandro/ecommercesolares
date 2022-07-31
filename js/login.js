@@ -31,9 +31,9 @@ botonIngreso.addEventListener('click', ()=>{
 function comporobarUsuario(usuario, contrasenia){
     
     personaServices.listaPersonas().then(data => {
-        
         if (data[0].usuario === usuario && data[0].contraseña === contrasenia){
-            window.location.href = './allProductos.html'
+            console.log('entramos!')
+            window.location.href = 'allProductos.html'
         }else{
             swal("Oops!", "El usuario o la contraseña son incorrectos", "error");
         }
