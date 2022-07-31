@@ -1,4 +1,5 @@
 import { productoServices } from "../service/producto-service.js"
+import { valida } from "./validaciones.js"
 
 
 const btnAgregarProducto = document.querySelector('#agregarProducto')
@@ -48,4 +49,11 @@ function promoTrue(precio){
     }
     return promoObj
 }
+
+const inputs = document.querySelectorAll('input')
+inputs.forEach(input =>{
+    input.addEventListener('blur', (input)=>{
+        valida(input.target)
+    })
+})
 

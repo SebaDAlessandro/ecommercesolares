@@ -5,7 +5,7 @@ const id = url.searchParams.get('id')
 
 if(id === null){
     alert('Error inesperado')
-    window.location.href = '../allProductos.html'
+    window.location.href = 'allProductos.html'
 }
 
 const urlInput = document.querySelector('#urlInput')
@@ -53,7 +53,7 @@ btnEditarProducto.addEventListener('click', ()=>{
         swal("Oops!", "Complete todos los datos para continuar", "error");
     }else{
         productoServices.actualizarProducto(urlInput.value, categoriaInput.value, precio, promo, nombreProductoInput.value,  descripcionInput.value, promoObjeto,id).then((respuesta) =>{
-                window.location.href = '../registroCompleto.html'
+                window.location.href = 'registroCompleto.html'
         }).catch(err=> console.log(err))            
     }
 })

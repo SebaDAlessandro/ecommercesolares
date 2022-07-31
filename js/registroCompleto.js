@@ -9,11 +9,11 @@ swal({
   const btnVolverMenu = document.querySelector('#btnVolverMenu')
 
   btnAgregarProducto.addEventListener('click',()=>{
-    window.location.href = '../agregarProducto.html'
+    window.location.href = 'agregarProducto.html'
   })
 
   btnVolverMenu.addEventListener('click',()=>{
-    window.location.href = '../allProductos.html'
+    window.location.href = 'allProductos.html'
   })
 
   /*
