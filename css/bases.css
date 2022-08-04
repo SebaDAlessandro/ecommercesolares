@@ -2,8 +2,13 @@
     --background-ceniza-claro: #F7F4F4;
     --background-ceniza-medio: #D9D9D9;
     --background-cielo: skyblue;
-    --background-mobile-azul: #020024;
+    --background-mobile-azul: linear-gradient(90deg, rgba(9,98,121,1) 0%, rgba(2,0,36,1) 73%);;
     --background-mobile-blanco: #ffffff;
+    --background-azul-violeta: 
+
+    --font-lightblue:rgb(0 177 216);
+    --font-lightgreen: rgb(151 195 75);
+    --font-gray:rgb(119 119 119);
 
     --border-cabecera-mobile: #103D4A;
     --border-card: #020024;

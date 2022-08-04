@@ -12,7 +12,6 @@ function cargarProductos(){
     productoServices.listaProductos().then(respuesta =>{
     
         for (let i = 0; i < respuesta.length; i++) {
-            console.log(respuesta[i].titulo)
             const liTag = `
                 <a href="detalleProducto.html?id=${respuesta[i].id}" class="nav__producto-titulo">
                     <span class="material-symbols-outlined">search</span>

@@ -18,7 +18,7 @@
     background: rgb(128 128 128 / 70%);
     border-radius: 10px;
     display: none;
-    margin-left: 10%;
+    margin-left: 15%;
     position: absolute;
     transform: translatex(-15%);
     z-index: 1;
@@ -56,7 +56,7 @@
     }
 
     .nav__lista-productos {    
-        margin-left: 7%;
+        margin-left: 15%;
     }
 
 }
@@ -73,7 +73,7 @@
     }
 
     .nav__lista-productos {  
-        margin-left: 13%;
+        margin-left: 17%;
     }
 
 }
